@@ -1,4 +1,4 @@
-<?php $title = "About" ?>
+<?php $title = "About the Crew" ?>
 <?php include_once("modules/head.php") ?>
 <?php include_once "modules/nav.php"; ?>
 
