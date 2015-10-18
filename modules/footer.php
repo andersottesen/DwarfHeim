@@ -1,5 +1,5 @@
 </div>
-<footer>
+<footer id="bottom-footer">
     <div class="row">
         <div class="three columns" style="">
             <div id="contact">
