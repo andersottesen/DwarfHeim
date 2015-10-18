@@ -13,14 +13,12 @@
 #bottom-footer #contact{
     padding-top:15px;
     position: relative;
-    margin:0px 0 0 25%;
     border-right: 2px solid #b6b6b6;
     height:130px;
 }
 #bottom-footer nav{
     padding-top:15px;
     display: block;
-    margin-left: 30px;
 }
 #bottom-footer nav ul{
     text-align: left;
@@ -31,23 +29,23 @@
 #bottom-footer nav ul li{
     position: relative;
     display: inline-block;
-    margin-right: 75px;
+    margin-right: 50px;
 }
 #bottom-footer nav ul li:last-child{
-    margin-right: 0;
+    margin-right: 0 !important;
 }
-#bottom-footer nav a{
+footer nav a{
     font-size: 18px;
     color: #8c8c8c;
     text-decoration: none;
 }
-#bottom-footer nav a:hover{
+footer nav a:hover{
     text-decoration: underline;
 }
-#bottom-footer nav>ul>li>a{
+footer nav>ul>li>a{
     color: #E86700;
 }
-#bottom-footer nav ul li ul{
+footer nav ul li ul{
     padding:0;
     position: absolute;
     top:30px;
@@ -57,12 +55,18 @@
     margin-top:20px;
 }
 
-@media (max-width: 1111px){
+@media (max-width: 1122px){
+    #footer-menu ul{
+        padding-left:40px;
+    }
     #bottom-footer nav ul li{
-        margin-right: 45px;
+        margin-right: 25px;
+    }
+    #footer-menu{
+        margin-left: 0;
     }
     #bottom-footer nav{
-        margin-left: 10px;
+        margin-left: 0px;
     }
     #bottom-footer #contact{
         font-size: 14px;
@@ -71,46 +75,68 @@
 }
 
 @media (max-width: 875px){
+    #contact p{
+        margin-left:-30px !important;
+    }
     #footer-menu{
-        margin-left:0;
+        padding-left:18px;
     }
     #bottom-footer nav ul{
-        padding-left:10px;
+        padding-left:4px;
     }
     #bottom-footer nav ul li{
-        margin-right: 25px;
+        margin-right: 14px;
     }
     #bottom-footer nav{
         margin-left: 0;
     }
     #bottom-footer nav a{
-        font-size: 18px;
+        font-size: 16px;
     }
     #bottom-footer nav ul li ul li{
         margin-top:10px;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 734px) {
+    #contact p{
+        margin-left:-40px !important;
+    }
     #bottom-footer nav ul li{
-        margin-right: 15px;
+        margin-right: 10px;
     }
     #bottom-footer nav a{
         font-size: 14px;
     }
-    #bottom-footer #contact{
-        width:150px;
-    }
     #bottom-footer nav ul{
-        padding-left:40px;
+        padding-left:10px;
+    }
+}
+@media (max-width: 640px) {
+    #contact p{
+        margin-left: -50px !important;
+    }
+    #footer-menu{
+        padding-left: 10px;
+    }
+    #footer-menu nav ul{
+        padding-left: 2px;
+        margin-left: 0;
+    }
+    #footer-menu nav ul li{
+        margin-right: 1px;
     }
 }
 @media (max-width: 549px){
+    #contact p{
+        margin: 0 !important;
+    }
     #footer-menu{
         text-align: center;
     }
     #footer-menu ul{
         padding:0;
+        margin: 0;
     }
     #bottom-footer #contact{
         width:150px;

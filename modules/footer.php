@@ -1,7 +1,6 @@
-</div>
 <footer id="bottom-footer">
     <div class="row">
-        <div class="three columns" style="">
+        <div class="three columns">
             <div id="contact">
                 <p style="margin: 0; padding: 3px;"><b>&copy; DwarfHeim</b></p>
 
@@ -17,7 +16,8 @@
                         <ul>
                             <li><a href="<?php echo $page["media"] ?>">Videos</a></li>
                             <li><a href="<?php echo $page["media"] ?>">Images</a></li>
-                        </ul></li>
+                        </ul>
+                    </li>
                     <li><a href="<?php echo $page["dwarfheim"] ?>">The Game</a></li>
                     <li><a href="<?php echo $page["about"] ?>">The Crew</a>
                         <ul>
@@ -31,5 +31,6 @@
         </div>
     </div>
 </footer>
+</div>
 </body>
 </html>
