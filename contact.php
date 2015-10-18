@@ -1,4 +1,4 @@
-<?php $title = ""; ?>
+<?php $title = "Contact"; ?>
 <?php include_once("modules/head.php") ?>
 <?php include_once("modules/nav.php"); ?>
 

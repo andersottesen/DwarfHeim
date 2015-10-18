@@ -1,4 +1,4 @@
-<?php $title = ""; ?>
+<?php $title = "Investors"; ?>
 <?php include_once("modules/head.php") ?>
 <?php include_once("modules/nav.php"); ?>
 

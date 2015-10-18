@@ -1,4 +1,4 @@
-<?php $title = "FAQ"; ?>
+<?php $title = "DwarfHeim"; ?>
 <?php include_once("modules/head.php") ?>
 <?php include_once("modules/nav.php"); ?>
 

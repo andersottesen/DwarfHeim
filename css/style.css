@@ -1,0 +1,122 @@
+footer{
+    padding: 10px;
+    font-family: "palatino", Times;
+    font-size: 17px;
+}
+footer a{
+    color:black;
+}
+footer #contact{
+    padding-top:15px;
+    position: relative;
+    margin:0px 0 0 25%;
+    border-right: 2px solid #b6b6b6;
+    height:130px;
+}
+footer nav{
+    padding-top:15px;
+    display: block;
+    margin-left: 30px;
+}
+footer nav ul{
+    text-align: left;
+    display:inline;
+    margin:0;
+    list-style: none;
+}
+footer nav ul li{
+    position: relative;
+    display: inline-block;
+    margin-right: 75px;
+}
+footer nav ul li:last-child{
+    margin-right: 0;
+}
+footer nav a{
+    font-size: 18px;
+    color: #8c8c8c;
+    text-decoration: none;
+}
+footer nav a:hover{
+    text-decoration: underline;
+}
+footer nav>ul>li>a{
+    color: #E86700;
+}
+footer nav ul li ul{
+    padding:0;
+    position: absolute;
+    top:30px;
+    left:0;
+}
+footer nav ul li ul li{
+    margin-top:20px;
+}
+
+@media (max-width: 1111px){
+    footer nav ul li{
+        margin-right: 45px;
+    }
+    footer nav{
+        margin-left: 10px;
+    }
+    footer #contact{
+        font-size: 14px;
+        margin:0;
+    }
+}
+
+@media (max-width: 875px){
+    #footer-menu{
+        margin-left:0;
+    }
+    footer nav ul{
+        padding-left:10px;
+    }
+    footer nav ul li{
+        margin-right: 25px;
+    }
+    footer nav{
+        margin-left: 0;
+    }
+    footer nav a{
+        font-size: 18px;
+    }
+    footer nav ul li ul li{
+        margin-top:10px;
+    }
+}
+
+@media (max-width: 700px) {
+    footer nav ul li{
+        margin-right: 15px;
+    }
+    footer nav a{
+        font-size: 14px;
+    }
+    footer #contact{
+        width:150px;
+    }
+    footer nav ul{
+        padding-left:40px;
+    }
+}
+@media (max-width: 549px){
+    #footer-menu{
+        text-align: center;
+    }
+    #footer-menu ul{
+        padding:0;
+    }
+    footer #contact{
+        width:150px;
+        height:75px;
+    }
+    footer #contact{
+        width:100%;
+        border-right:none;
+        border-top: 1px solid #b6b6b6;
+        text-align: center;
+        padding-top:25px;
+    }
+}
