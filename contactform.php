@@ -23,7 +23,7 @@ if (isset($_POST["name"]) && isset($_POST["message"]) && isset($_POST["email"]))
     $mail->SMTPSecure = $SMTPSecure;                      // Enable TLS encryption, `ssl` also accepted
     $mail->Port = $port;                                  // TCP port to connect to
 
-    $mail->setFrom($email_address, 'DwarHeim');
+    $mail->setFrom($email_address, 'DwarfHeim');
     $mail->addAddress($to);     // Add a recipient
     $mail->addReplyTo($email, $name);
 
