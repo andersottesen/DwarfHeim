@@ -17,7 +17,7 @@ $faq = array(
 <?php $style = '
 .faq-question{
     padding:10px;
-    margin-top:20px;
+    margin-top:30px;
     box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.75);
     background-color:#E5E5E5;
     border:2px solid #E5E5E5;
@@ -30,7 +30,6 @@ $faq = array(
 .faq-answer{
     margin:0;
     padding:0px;
-    min-height:50px;
     background-color: #FFFFFF;
     border-radius: 5px;
     font-weight: normal;
@@ -43,7 +42,7 @@ $faq = array(
 .faq-answer:hover{
     cursor:auto;
 }
-ul{
+#faq ul{
     list-style: none;
 }
 
@@ -53,33 +52,50 @@ ul{
     font-size: 18px;
     margin-right:5px;
 }
-
+.hidden{
+    opacity: 0;
+    height: 0 !important;
+    display:none;
+}
+@media (max-width:1000px){
+    #faq{
+        position:relative;
+        margin-left:0;
+        width:100%;
+    }
+}
 '; ?>
 <?php $title = "FAQ"; ?>
 <?php include_once("modules/head.php") ?>
 <?php include_once("modules/nav.php"); ?>
 
 <!-- CONTENT HERE -->
-<div class="row">
-    <div class="offset-by-two eight columns">
+<header class="row">
+    <h1 style="text-align:center;">FAQ</h1>
+</header>
+<section class="row">
+    <div id="faq" class="offset-by-two eight columns">
 
-        <ul id="faq">
-
+        <ul>
             <?php
             foreach ($faq as $question => $answer) {
                 echo '
-                    <li class="faq-question">
-                        <span class="right arrow">&#x25BA;</span>
-                        ' . $question . '
-                        <ul class="faq-answer" style="visibility:hidden; display:none;">
-                            <li>' . $answer . '</li>
-                        </ul>
-                    </li>';
+            <li class="faq-question">
+                <span class="right arrow">&#x25BA;</span>
+                ' . $question . '
+                <ul id="navigation-dropdown" class="faq-answer hidden">
+                    <li>' . $answer . '</li>
+                </ul>
+            </li>';
             }
             ?>
+
         </ul>
     </div>
-</div>
+</section>
+<footer class="row">
+    <p style="text-align: center;margin-top:75px;color:#E86700;">Didn't find what you were looking for? <a href="<?php echo $page["contact"] ?>">Contact us!</a></p>
+</footer>
 <script src="<?php echo $js["faq"]; ?>"></script>
 
 <?php include_once "modules/footer.php"; ?>

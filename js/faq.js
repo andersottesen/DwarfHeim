@@ -13,20 +13,23 @@ ul.onclick = function (event) {
     if (target.id == "faq") {
         return;
     }
-        if (target.tagName == "SPAN") {
-            target = target.parentNode;
-        }
+    //If the arrow is clicked
+    if (target.tagName == "SPAN") {
+        target = target.parentNode;
+    }
 
-        var arrow = target.getElementsByTagName("span")[0];
-        var child = target.getElementsByTagName("ul")[0];
-        if (arrow.className.indexOf("right") > -1) {
-            arrow.className = arrow.className.replace("right", "down");
-            arrow.innerHTML = "&#x25BC;";
-        } else {
-            arrow.className = arrow.className.replace("down", "right");
-            arrow.innerHTML = "&#x25BA;";
-        }
+    var arrow = target.getElementsByTagName("span")[0];
+    var child = target.getElementsByTagName("ul")[0];
 
-        child.style.visibility = child.style.visibility == "hidden" ? "visible" : "hidden";
-        child.style.display = child.style.display == "none" ? "block" : "none";
+    //Change direction of arrow
+    if (arrow.className.indexOf("right") > -1) {
+        arrow.className = arrow.className.replace("right", "down");
+        arrow.innerHTML = "&#x25BC;";
+    } else {
+        arrow.className = arrow.className.replace("down", "right");
+        arrow.innerHTML = "&#x25BA;";
+    }
+
+    //Show/Hide the answer
+    child.className = child.className.indexOf("hidden") > -1 ? child.className.replace("hidden", "visible") : child.className.replace("visible", "hidden");
 };
