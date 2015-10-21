@@ -31,6 +31,7 @@
         checkCookie();
     </script>
 
+<h1 style="text-align: center;"><a style="color:#E86700!important" href="<?php echo $page["homepage"] ?>">Continue to DwarfHeim.com!</a></h1>
 </body>
 </html>
 
