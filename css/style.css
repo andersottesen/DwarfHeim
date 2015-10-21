@@ -4,12 +4,17 @@ html{
 /* Navbar
 -------------------------------------
 */
+#top-nav{
+    margin-left:1%;
+}
 .navbar {
+    overflow: hidden;
+    width: 100%;
     text-align: center;
     display:inline-block;
     list-style-type:none;
-    width:100%;
     text-align:center;
+    padding:0;
 }
 .navbar li {
     float: left;
@@ -25,7 +30,7 @@ html{
     border-bottom: 2px solid #767676;
     border-left: 2px solid #767676;
     position: relative;
-    width:14.95%;
+    width:16.2%;
 }
 .navbar>li:last-child{
     border-right: 2px solid #767676;

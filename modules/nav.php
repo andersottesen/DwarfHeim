@@ -1,4 +1,6 @@
-<nav id="top-nav" class="container">
+<nav class="container">
+    <div id="top-nav">
+
     <ul class="navbar">
         <li><a href="<?php echo $page["homepage"] ?>">Home</a></li>
         <li><a href="<?php echo $page["media"] ?>">Media</a>
@@ -16,6 +18,7 @@
         <li><a href="<?php echo $page["faq"] ?>">FAQ</a></li>
         <li><a href="<?php echo $page["investor"] ?>">Investors</a></li>
     </ul>
+    </div>
     <img style="margin-top:-21px;" src="<?php echo $root.'/images/Concept 02.jpg'; ?>" width="100%" alt="">
 </nav>
 <script>
