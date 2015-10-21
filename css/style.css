@@ -1,3 +1,56 @@
+/* Navbar
+-------------------------------------
+*/
+.navbar {
+    height: 50px;
+    padding:0;
+    margin: 0;
+    position: absolute;
+}
+.navbar li {
+    height: auto;
+    width: 150px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    background-color: #F0EDDA;
+    opacity: 0.72;
+    border: 1px solid #B8B8B8;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar a	{
+    padding: 18px 0;
+    text-decoration: none;
+    display: block;
+    color:  #E86700;
+}
+.navbar li ul 	{
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li:hover ul {
+    display: block;
+}
+/* Container
+-------------------------------------
+*/
+
+.container{
+    margin-top:100px;
+}
+
 /* Bottom footer
 -------------------------------------
 */
