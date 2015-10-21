@@ -1,5 +1,4 @@
-<div class="container">
-    <nav id="top-nav" class="row">
+    <nav id="top-nav" class="container">
         <ul class="navbar">
             <li><a href="<?php echo $page["homepage"] ?>">Home</a></li>
             <li><a href="<?php echo $page["media"] ?>">Media</a>
@@ -18,3 +17,16 @@
             <li><a href="<?php echo $page["investor"] ?>">Investors</a></li>
         </ul>
     </nav>
+    <script>
+        $(document).ready(function () {
+            $('.navbar li').hover(
+                function () {
+                    $('ul', this).fadeIn(200);
+                },
+                function () {
+                    $('ul', this).fadeOut(200);
+                }
+            );
+        });
+    </script>
+<div id="main-container" class="container">

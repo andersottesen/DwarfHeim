@@ -1,20 +1,17 @@
+html{
+    background-color: #F0EDDA;
+}
 /* Navbar
 -------------------------------------
 */
-#top-nav{
-    margin-bottom:100px;
-}
 .navbar {
-    height: 50px;
-    padding:0;
-    margin: 0;
-    left:0;
-    top:0;
+    text-align: center;
+    display:inline-block;
+    list-style-type:none;
     width:100%;
-    position:absolute;
+    text-align:center;
 }
 .navbar li {
-    height: auto;
     float: left;
     text-align: center;
     list-style: none;
@@ -25,44 +22,41 @@
     background-color: #F0EDDA;
     opacity: 0.72;
     border: 1px solid #B8B8B8;
-}
-.navbar>li{
-    width: 16%;
-}
-.navbar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    position: relative;
+    width:14.95%;
 }
 .navbar a	{
     padding: 18px 0;
     text-decoration: none;
     display: block;
     color:  #E86700;
-}
-.navbar li ul{
-    display: none;
-    height: auto;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar li:hover ul {
-    display: block;
+    background-color: #F0EDDA ;
 }
 .navbar li:hover{
     opacity: 1;
 }
-
-.navbar>li>ul>li{
-    width: 100%;
+.navbar ul {
+    position: absolute;
+    left: 0;
+    display: none;
+    margin: 0 0 0 -1px;
+    padding: 0;
+    list-style: none;
+}
+.navbar li ul, .navbar li ul li{
+    width: 100%!important;
+    z-index: 99999;
+}
+.navbar ul a {
+    display: block;
+    height: 15px;
+    text-decoration: none;
 }
 /* Bottom footer
 -------------------------------------
 */
 #bottom-footer{
-    margin-top:100px;
+    background-color:#F0EDDA;
     padding: 10px;
     font-family: "palatino", Times;
     font-size: 17px;
@@ -170,7 +164,19 @@
         padding-top:25px;
     }
 }
-
+#main-container{
+    margin-top:50px;
+    padding: 50px 15px;
+    background-color:#FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px 1px rgba(0,0,0,0.75);
+    margin-bottom:-60px;
+    z-index: 2;
+}
+#mountainBG{
+    width:100%;
+    margin-bottom:-5px;
+}
 /* Forms
 ––––––––––––––––––––––––––––––––––––––––––––––––––
 */

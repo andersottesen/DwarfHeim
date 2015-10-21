@@ -62,6 +62,12 @@ $faq = array(
 @media (max-width:1000px){
     #faq{
         position:relative;
+        margin-left:30px;
+        width:90%;
+    }
+}
+@media (max-width:550px){
+    #faq{
         margin-left:0;
         width:100%;
     }

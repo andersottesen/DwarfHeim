@@ -1,42 +1,47 @@
-<footer id="bottom-footer">
-    <div class="row">
-        <div class="three columns">
-            <div id="contact">
-                <p style="margin: 0; padding: 3px;"><b>&copy; DwarfHeim</b></p>
+</div>
+<div class="container">
 
-                <p style="margin: 0; padding: 3px;"><a href="mailto:contact@dwarfheim.no">contact@dwarfheim.no</a></p>
-            </div>
+    <img id="mountainBG" src="../images/dwarfheimbg.png" alt="">
+    <footer id="bottom-footer">
+        <div class="row">
+            <div class="three columns">
+                <div id="contact">
+                    <p style="margin: 0; padding: 3px;"><b>&copy; DwarfHeim</b></p>
 
-        </div>
-        <div class="nine columns" id="footer-menu">
-            <nav>
-                <div class="row menu-items">
-                    <div class="two columns">
-                        <a href="<?php echo $page["homepage"] ?>">Home</a>
-                    </div>
-                    <div class="two columns">
-                        <a href="<?php echo $page["media"] ?>">Media</a>
-                        <a class="sub-menu" href="<?php echo $page["media"] ?>">Videos</a>
-                        <a class="sub-menu" href="<?php echo $page["media"] ?>">Images</a>
-                    </div>
-                    <div class="two columns">
-                        <a href="<?php echo $page["dwarfheim"] ?>">The&nbsp;Game</a>
-                    </div>
-                    <div class="two columns">
-                        <a href="<?php echo $page["about"] ?>">The&nbsp;Crew</a>
-                        <a class="sub-menu" href="<?php echo $page["contact"] ?>">Contact</a>
-                    </div>
-                    <div class="two columns">
-                        <a href="<?php echo $page["faq"] ?>">FAQ</a>
-                    </div>
-                    <div class="two columns">
-                        <a href="<?php echo $page["investor"] ?>">Investors</a>
-                    </div>
+                    <p style="margin: 0; padding: 3px;"><a href="mailto:contact@dwarfheim.no">contact@dwarfheim.no</a>
+                    </p>
                 </div>
-            </nav>
+
+            </div>
+            <div class="nine columns" id="footer-menu">
+                <nav>
+                    <div class="row menu-items">
+                        <div class="two columns">
+                            <a href="<?php echo $page["homepage"] ?>">Home</a>
+                        </div>
+                        <div class="two columns">
+                            <a href="<?php echo $page["media"] ?>">Media</a>
+                            <a class="sub-menu" href="<?php echo $page["media"] ?>">Videos</a>
+                            <a class="sub-menu" href="<?php echo $page["media"] ?>">Images</a>
+                        </div>
+                        <div class="two columns">
+                            <a href="<?php echo $page["dwarfheim"] ?>">The&nbsp;Game</a>
+                        </div>
+                        <div class="two columns">
+                            <a href="<?php echo $page["about"] ?>">The&nbsp;Crew</a>
+                            <a class="sub-menu" href="<?php echo $page["contact"] ?>">Contact</a>
+                        </div>
+                        <div class="two columns">
+                            <a href="<?php echo $page["faq"] ?>">FAQ</a>
+                        </div>
+                        <div class="two columns">
+                            <a href="<?php echo $page["investor"] ?>">Investors</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
 </div>
 </body>
 </html>
