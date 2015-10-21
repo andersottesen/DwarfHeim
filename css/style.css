@@ -8,7 +8,6 @@ html{
     margin-left:1%;
 }
 .navbar {
-    overflow: hidden;
     width: 100%;
     text-align: center;
     display:inline-block;
