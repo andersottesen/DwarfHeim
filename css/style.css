@@ -111,3 +111,64 @@
     }
 }
 
+/* Forms
+––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+input[type="email"],
+input[type="text"],
+textarea {
+    margin-top:5px;
+    height: 38px;
+    width: 100%;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+textarea{
+    height:250px;
+}
+form label{
+    float: right;
+    margin-top:12px;
+}
+@media (max-width: 549px) {
+    form label{
+        float:none;
+    }
+    form .row{
+        margin-top:20px;
+    }
+}
+form button{
+    margin-top:5px;
+}
+
+/* Buttons
+-----------------------------
+*/
+.btn-center{
+    display:block;
+    text-align: center;
+}
+.btn{
+    border-radius:0;
+    background-color: #FFFFFF;
+    border:3px solid #888888;
+    padding:10px;
+    color: #E86700;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    color: #FFFFFF;
+    background-color: #E86700;
+    cursor:pointer;
+}
+.btn:active{
+    background-color: #b75800;
+}
