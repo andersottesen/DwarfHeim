@@ -55,8 +55,6 @@ $faq = array(
     margin-right:5px;
 }
 .hidden{
-    opacity: 0;
-    height: 0 !important;
     display:none;
 }
 @media (max-width:1000px){
@@ -105,6 +103,16 @@ $faq = array(
 <footer class="row">
     <p style="text-align: center;margin-top:75px;color:#E86700;">Didn't find what you were looking for? <a href="<?php echo $page["contact"] ?>">Contact us!</a></p>
 </footer>
-<script src="<?php echo $js["faq"]; ?>"></script>
+<script src="js/faq.js"></script>
+<script>
+    //Sliding
+    $(document).ready(function () {
+        $('.faq-question').click(
+            function () {
+                $('ul', this).slideToggle(200);
+            }
+        );
+    });
+</script>
 
 <?php include_once "modules/footer.php"; ?>
