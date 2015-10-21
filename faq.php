@@ -44,6 +44,8 @@ $faq = array(
 }
 #faq ul{
     list-style: none;
+    margin-left: 0;
+    padding-left: 0;
 }
 
 .arrow{
@@ -64,6 +66,7 @@ $faq = array(
         width:100%;
     }
 }
+
 '; ?>
 <?php $title = "FAQ"; ?>
 <?php include_once("modules/head.php") ?>
