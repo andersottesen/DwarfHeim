@@ -200,29 +200,42 @@ input[type="text"],
 textarea {
     margin-top:5px;
     height: 38px;
-    width: 100%;
+    width:400px;
+    max-width: 100%;
     padding: 6px 10px;
     background-color: #fff;
-    border: 1px solid #D1D1D1;
+    border: 1px solid #383838;
     border-radius: 4px;
     box-shadow: none;
     box-sizing: border-box;
+    float:right;
 }
-textarea{
-    resize: none;
-    height:250px;
+form .btn{
+    margin-left:17.3333333333%;
 }
-form label{
-    float: right;
-    margin-top:12px;
-}
-@media (max-width: 549px) {
+@media (max-width: 700px){
+    input[type="email"],
+    input[type="text"],
+    textarea {
+        width:100%;
+    }
     form label{
         float:none;
     }
     form .row{
         margin-top:20px;
     }
+    form .btn{
+        margin-left:0;
+    }
+}
+textarea{
+    resize: none;
+    height:250px;
+}
+form label{
+    float: left;
+    margin-top:12px;
 }
 form button{
     margin-top:5px;
