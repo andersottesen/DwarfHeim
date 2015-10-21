@@ -7,5 +7,6 @@
     <link rel="stylesheet" href="<?php echo $css["style"] ?>">
     <link rel="stylesheet" href="<?php echo $css["grid"] ?>">
     <title><?php if(isset($title)){echo $title;} ?></title>
+    <style><?php if(isset($style)){echo $style;} ?></style>
 </head>
 <body>

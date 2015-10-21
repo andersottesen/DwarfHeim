@@ -8,7 +8,7 @@ $css = array(
 
 $js = array(
    "contactform" => $root."/js/contactform.js",
-   "gaq" => $root."/js/faq.js",
+   "faq" => $root."/js/faq.js",
    "gallery" => $root."/js/gallery.js",
    "lazyloading" => $root."/js/lazyloading.js",
    "lp_cookie" => $root."/js/lp_cookie.js",
