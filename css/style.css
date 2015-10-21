@@ -1,15 +1,20 @@
 /* Navbar
 -------------------------------------
 */
+#top-nav{
+    margin-bottom:100px;
+}
 .navbar {
     height: 50px;
     padding:0;
     margin: 0;
-    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    position:absolute;
 }
 .navbar li {
     height: auto;
-    width: 150px;
     float: left;
     text-align: center;
     list-style: none;
@@ -20,6 +25,9 @@
     background-color: #F0EDDA;
     opacity: 0.72;
     border: 1px solid #B8B8B8;
+}
+.navbar>li{
+    width: 16%;
 }
 .navbar ul {
     list-style-type: none;
@@ -33,7 +41,7 @@
     display: block;
     color:  #E86700;
 }
-.navbar li ul 	{
+.navbar li ul{
     display: none;
     height: auto;
     margin: 0;
@@ -43,14 +51,13 @@
 .navbar li:hover ul {
     display: block;
 }
-/* Container
--------------------------------------
-*/
-
-.container{
-    margin-top:100px;
+.navbar li:hover{
+    opacity: 1;
 }
 
+.navbar>li>ul>li{
+    width: 100%;
+}
 /* Bottom footer
 -------------------------------------
 */

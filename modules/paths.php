@@ -23,6 +23,8 @@ $page = array(
    "contact" => $root."/contact",
    "investor" => $root."/investors",
    "media" => $root."/media.php",
+   "videos" => $root."/media.php",
+   "images" => $root."/media.php",
    "landingpage" => $root."/landingpage",
 );
 
