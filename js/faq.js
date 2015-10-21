@@ -10,7 +10,7 @@ function getEventTarget(e) {
 var ul = document.getElementById('faq');
 ul.onclick = function (event) {
     var target = getEventTarget(event);
-    if (target.id == "faq") {
+    if (target.tagName != "LI" && target.tagName!="SPAN" ) {
         return;
     }
     //If the arrow is clicked
