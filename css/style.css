@@ -76,58 +76,38 @@
     border-right: 2px solid #b6b6b6;
     height:130px;
 }
-#bottom-footer nav{
+#footer-menu{
+    text-align: center;
     padding-top:15px;
     display: block;
 }
-#bottom-footer nav ul{
-    text-align: left;
-    display:inline;
-    margin:0;
-    list-style: none;
-}
-#bottom-footer nav ul li{
-    position: relative;
-    display: inline-block;
-    margin-right: 50px;
-}
-#bottom-footer nav ul li:last-child{
-    margin-right: 0 !important;
-}
-#bottom-footer nav a{
+
+#footer-menu a{
+    display:block;
     font-size: 18px;
     color: #8c8c8c;
     text-decoration: none;
 }
-#bottom-footer nav a:hover{
-    text-decoration: underline;
+
+#footer-menu a{
+    margin-top:10px ;
 }
-#bottom-footer nav>ul>li>a{
+#footer-menu .two a:first-child{
+    margin-top: 0;
+}
+
+#footer-menu .two:not:first-child a{
+    margin-top:10px;
+}
+#footer-menu a:first-child{
     color: #E86700;
 }
-#bottom-footer nav ul li ul{
-    padding:0;
-    position: absolute;
-    top:30px;
-    left:0;
-}
-#bottom-footer nav ul li ul li{
-    margin-top:20px;
+
+#footer-menu a:hover{
+    text-decoration: underline;
 }
 
 @media (max-width: 1122px){
-    #footer-menu ul{
-        padding-left:40px;
-    }
-    #bottom-footer nav ul li{
-        margin-right: 25px;
-    }
-    #footer-menu{
-        margin-left: 0;
-    }
-    #bottom-footer nav{
-        margin-left: 0px;
-    }
     #bottom-footer #contact{
         font-size: 14px;
         margin:0;
@@ -138,23 +118,11 @@
     #contact p{
         margin-left:-30px !important;
     }
-    #footer-menu{
-        padding-left:18px;
-    }
-    #bottom-footer nav ul{
-        padding-left:4px;
-    }
-    #bottom-footer nav ul li{
-        margin-right: 14px;
-    }
-    #bottom-footer nav{
-        margin-left: 0;
-    }
-    #bottom-footer nav a{
+    #footer-menu a{
         font-size: 16px;
     }
-    #bottom-footer nav ul li ul li{
-        margin-top:10px;
+    .menu-items{
+        width:117%;
     }
 }
 
@@ -162,51 +130,106 @@
     #contact p{
         margin-left:-40px !important;
     }
-    #bottom-footer nav ul li{
-        margin-right: 10px;
-    }
-    #bottom-footer nav a{
+    #footer-menu a{
         font-size: 14px;
     }
-    #bottom-footer nav ul{
-        padding-left:10px;
-    }
 }
+
 @media (max-width: 640px) {
     #contact p{
         margin-left: -50px !important;
     }
-    #footer-menu{
-        padding-left: 10px;
-    }
-    #footer-menu nav ul{
-        padding-left: 2px;
-        margin-left: 0;
-    }
-    #footer-menu nav ul li{
-        margin-right: 1px;
+    #bottom-footer #contact{
+        font-size: 12px;
     }
 }
 @media (max-width: 549px){
+    #footer-menu{
+        text-align:left;
+    }
+    .menu-items{
+        width:100%;
+    }
+    .sub-menu{
+        margin-left:10px;
+    }
+    #footer-menu a{
+        font-size: 16px;
+        margin-top:5px!important;
+    }
     #contact p{
         margin: 0 !important;
     }
-    #footer-menu{
-        text-align: center;
-    }
-    #footer-menu ul{
-        padding:0;
-        margin: 0;
-    }
     #bottom-footer #contact{
-        width:150px;
-        height:75px;
-    }
-    #bottom-footer #contact{
+        font-size: 14px;
         width:100%;
+        height:75px;
         border-right:none;
         border-top: 1px solid #b6b6b6;
         text-align: center;
         padding-top:25px;
     }
+}
+
+/* Forms
+––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+input[type="email"],
+input[type="text"],
+textarea {
+    margin-top:5px;
+    height: 38px;
+    width: 100%;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+textarea{
+    resize: none;
+    height:250px;
+}
+form label{
+    float: right;
+    margin-top:12px;
+}
+@media (max-width: 549px) {
+    form label{
+        float:none;
+    }
+    form .row{
+        margin-top:20px;
+    }
+}
+form button{
+    margin-top:5px;
+}
+
+/* Buttons
+-----------------------------
+*/
+.btn-center{
+    display:block;
+    text-align: center;
+}
+.btn{
+    border-radius:0;
+    background-color: #FFFFFF;
+    border:3px solid #888888;
+    padding:10px;
+    color: #E86700;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    color: #FFFFFF;
+    background-color: #E86700;
+    cursor:pointer;
+}
+.btn:active{
+    background-color: #b75800;
 }

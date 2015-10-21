@@ -8,5 +8,6 @@
     <link rel="stylesheet" href="<?php echo $css["grid"] ?>">
     <link href='https://fonts.googleapis.com/css?family=Caesar+Dressing' rel='stylesheet' type='text/css'>
     <title><?php if(isset($title)){echo $title;} ?></title>
+    <style><?php if(isset($style)){echo $style;} ?></style>
 </head>
 <body>

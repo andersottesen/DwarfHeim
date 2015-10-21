@@ -10,23 +10,29 @@
         </div>
         <div class="nine columns" id="footer-menu">
             <nav>
-                <ul>
-                    <li><a href="<?php echo $page["homepage"] ?>">Home</a></li>
-                    <li><a href="<?php echo $page["media"] ?>">Media</a>
-                        <ul>
-                            <li><a href="<?php echo $page["media"] ?>">Videos</a></li>
-                            <li><a href="<?php echo $page["media"] ?>">Images</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="<?php echo $page["dwarfheim"] ?>">The Game</a></li>
-                    <li><a href="<?php echo $page["about"] ?>">The Crew</a>
-                        <ul>
-                            <li><a href="<?php echo $page["contact"] ?>">Contact</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="<?php echo $page["faq"] ?>">FAQ</a></li>
-                    <li><a href="<?php echo $page["investor"] ?>">Investors</a></li>
-                </ul>
+                <div class="row menu-items">
+                    <div class="two columns">
+                        <a href="<?php echo $page["homepage"] ?>">Home</a>
+                    </div>
+                    <div class="two columns">
+                        <a href="<?php echo $page["media"] ?>">Media</a>
+                        <a class="sub-menu" href="<?php echo $page["media"] ?>">Videos</a>
+                        <a class="sub-menu" href="<?php echo $page["media"] ?>">Images</a>
+                    </div>
+                    <div class="two columns">
+                        <a href="<?php echo $page["dwarfheim"] ?>">The&nbsp;Game</a>
+                    </div>
+                    <div class="two columns">
+                        <a href="<?php echo $page["about"] ?>">The&nbsp;Crew</a>
+                        <a class="sub-menu" href="<?php echo $page["contact"] ?>">Contact</a>
+                    </div>
+                    <div class="two columns">
+                        <a href="<?php echo $page["faq"] ?>">FAQ</a>
+                    </div>
+                    <div class="two columns">
+                        <a href="<?php echo $page["investor"] ?>">Investors</a>
+                    </div>
+                </div>
             </nav>
         </div>
     </div>
