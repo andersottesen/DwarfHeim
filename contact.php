@@ -10,10 +10,10 @@
         </header>
         <section>
             <p style="color:#E86700">Check out our frequently asked questions <a
-                    href="<?php echo $page["faq"] ?>">here.</a></p>
+                    href="<?php echo $page["faq"] ?>" style="color:#0000AA;">here.</a></p>
 
             <p style="color:#E86700">Learn more about the crew and how to contact the team members <a
-                    href="<?php echo $page["about"] ?>">here.</a></p>
+                    href="<?php echo $page["about"] ?>" style="color:#0000AA;">here.</a></p>
         </section>
     </div>
 </div>

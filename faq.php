@@ -101,7 +101,7 @@ $faq = array(
     </div>
 </section>
 <footer class="row">
-    <p style="text-align: center;margin-top:75px;color:#E86700;">Didn't find what you were looking for? <a href="<?php echo $page["contact"] ?>">Contact us!</a></p>
+    <p style="text-align: center;margin-top:75px;color:#E86700;">Didn't find what you were looking for? <a href="<?php echo $page["contact"] ?>" style="color:#0000AA;">Contact us!</a></p>
 </footer>
 <script src="js/faq.js"></script>
 <script>
