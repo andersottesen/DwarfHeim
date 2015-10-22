@@ -34,12 +34,12 @@ if (isset($_POST["name"]) && isset($_POST["message"]) && isset($_POST["email"]))
     $mail->Body = $message;
     $mail->AltBody = $message;
     if(!$success = $mail->send()){
-        $status = 'Message could not be sent. Please try again.';
+        $status = 'Message could not be sent. Please <a style="color: #0000AA;" href="'.$page["contact"].'">try again</a>';
     }else{
         $status = 'Your message has been sent to the DwarfHeim team';
     }
 } else {
-    $status = 'Form was not correctly filled';
+    $status = 'Form was not correctly filled, please <a style="color: #0000AA;" href="'.$page["contact"].'">try again</a>';
     $success = false;
 }
 ?>
