@@ -1,19 +1,3 @@
-<body style="background-color:black">
-  <div id="landing-logo">
-    <img src="images/DwarfHeim landingpage.jpg" alt="Dwarfheim logo" height="300px" width="700px">
-  </div>
-
-  <div id="landing-video">
-    <video width="700px" height="360px" controls>
-      <source src="video/tnt.mp4" type="video/mp4">
-      This is a video, your browser does not support this format.
-    </video>
-  </div>
-  <div id="landing-link">
-    <a href="" > Continue to the DwarfHeim webpage... </a>
-  </div>
-</body>
-
 <?php $title = "DwarfHeim"; ?>
 <?php $style="
     html{background-color: #000000;}
@@ -46,7 +30,21 @@
         }
         checkCookie();
     </script>
+  <div id="landing-logo">
+    <img src="images/DwarfHeim-landingpage.jpg" alt="Dwarfheim logo" height="300px" width="700px">
+  </div>
 
-<h1 style="text-align: center;"><a style="color:#E86700!important" href="<?php echo $page["homepage"] ?>">Continue to DwarfHeim.com!</a></h1>
+  <div id="landing-video">
+    <video width="700px" height="360px" controls>
+      <source src="video/tnt.mp4" type="video/mp4">
+      This is a video, your browser does not support this format.
+    </video>
+  </div>
+  <div id="landing-link">
+    <a href="" > Continue to the DwarfHeim webpage... </a>
+  </div>
+</body>
+
+
 </body>
 </html>
