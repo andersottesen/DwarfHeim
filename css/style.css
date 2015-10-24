@@ -203,7 +203,7 @@ a:hover{
     margin-bottom:-5px;
 }
 /* Forms
-––––––––––––––––––––––––––––––––––––––––––––––––––
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 */
 input[type="email"],
 input[type="text"],
@@ -276,4 +276,17 @@ form button{
 }
 .btn:active{
     background-color: #b75800;
+}
+/* Landingpage
+-----------------------------
+*/
+#landing-logo, #landing-video, #landing-link{
+ text-align: center;
+ margin: auto;
+ padding-bottom: 10px;
+}
+#landing-link > a{
+ text-decoration: none;
+ color: white;
+ font-family: 'Caesar Dressing', cursive;
 }
