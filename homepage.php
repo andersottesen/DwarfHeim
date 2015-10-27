@@ -1,11 +1,27 @@
 <?php $title = "DwarfHeim"; ?>
 <?php $style = "
 .thumbnail img{
-    width: 100px; height: 100px; max-width: 100%; max-height: 100%;
+    width: auto; height: auto; max-width: 100%; max-height: 100%;
 }
 @media (max-width:700px){
-    .thumbnail img{
+    #gallery, #crew{
+        display:none;
+    }
+    .right{
+        margin-left:0!important;
+        width:100%!important;
+    }
+}
+@media (min-width:701px){
+    .mobile{
+        display:none;
+    }
+}
+@media (max-width:549px){
+    .mobile{
+        #gallery, #crew{
         float:none;
+        }
     }
 }
 h1,h2{
@@ -46,7 +62,7 @@ text-align:center;
 
 <div class="row">
     <div class="four columns">
-        <div class="row" style="margin-top:80px;">
+        <div class="row" id="gallery" style="margin-top:80px;">
             <h2>Gallery</h2>
 
             <div class="row">
@@ -63,8 +79,39 @@ text-align:center;
             </div>
             <h2><a href="<?php echo $page["images"] ?>">See more...</a></h2>
         </div>
-        <div class="row" style="margin-top:230px;">
+        <div class="row" id="crew" style="margin-top:230px;">
             <h2>The crew</h2>
+
+            <div class="row">
+                <div class="six columns thumbnail"><a href="<?php echo $page["about"] ?>"><img src="images/team/1-t.jpg" alt="" style="float:right;"></a>
+                </div>
+                <div class="six columns thumbnail" style="margin-left:5px;"><a href="<?php echo $page["about"] ?>"><img src="images/team/2-t.jpg"
+                                                                                 alt="" style="float:left;"></a></div>
+            </div>
+            <div class="row" style="margin-top:5px;">
+                <div class="six columns thumbnail"><a href="<?php echo $page["about"] ?>"><img src="images/team/3-t.jpg" alt="" style="float:right;"></a>
+                </div>
+                <div class="six columns thumbnail" style="margin-left:5px;"><a href="<?php echo $page["about"] ?>"><img src="images/team/4-t.jpg" alt=""
+                                                                                 style="float:left;"></a></div>
+            </div>
+            <h2><a href="<?php echo $page["about"] ?>">See more...</a></h2>
+        </div>
+    </div>
+    <div class="offset-by-one seven columns right">
+
+        <header class="row">
+            <h1>DwarfHeim</h1>
+        </header>
+        <section class="row">
+            <img src="images/art/Concept%2003.jpg" alt="" style="max-width: 100%;">
+
+            <h3>DwarfHeim is a pc-game under developement in Norway. During developement we would love to get feedback
+                on our ideas and eventually get testers. Read more about the game <a
+                    href="<?php echo $page["dwarfheim"] ?>">here</a>.</h3>
+        </section>
+        <div class="row mobile" id="gallery-mobile" style="margin-top:80px;">
+            <h2>Gallery</h2>
+
             <div class="row">
                 <div class="six columns thumbnail"><img src="images/art/DwarfHeim%203.jpg" alt="" style="float:right;">
                 </div>
@@ -77,21 +124,8 @@ text-align:center;
                 <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/DwarfHeim%203.jpg"
                                                                                  alt="" style="float:left;"></div>
             </div>
-            <h2><a href="<?php echo $page["about"] ?>">See more...</a></h2>
+            <h2><a href="<?php echo $page["images"] ?>">See more...</a></h2>
         </div>
-    </div>
-    <div class="offset-by-one seven columns">
-
-        <header class="row">
-            <h1>DwarfHeim</h1>
-        </header>
-        <section class="row">
-            <img src="images/art/Concept%2003.jpg" alt="" style="max-width: 100%;">
-
-            <h3>DwarfHeim is a pc-game under developement in Norway. During developement we would love to get feedback
-                on our ideas and eventually get testers. Read more about the game <a
-                    href="<?php echo $page["dwarfheim"] ?>">here</a>.</h3>
-        </section>
         <header class="row" style="margin-top:150px;">
             <h1>News</h1>
         </header>
