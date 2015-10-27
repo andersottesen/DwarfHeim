@@ -290,3 +290,11 @@ form button{
  color: white;
  font-family: 'Caesar Dressing', cursive;
 }
+
+/* Paragraph
+-----------------------------
+*/
+.paragraph {
+    padding-left: 100px;
+    padding-right: 100px;
+}
