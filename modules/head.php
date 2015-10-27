@@ -10,5 +10,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <title><?php if(isset($title)){echo $title;} ?></title>
     <style><?php if(isset($style)){echo $style;} ?></style>
+    <?php if(isset($head)){echo $head;} ?>
 </head>
 <body>
