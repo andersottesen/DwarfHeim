@@ -7,7 +7,7 @@ var gallery2;
 var gallery3;
 var gallery4;
 
-var gallery = new Array("../images/art/Concept%2001.jpg", "../images/art/Concept%2002.jpg", "../images/art/Concept%2003.jpg", "../images/art/DwarfHeim%201.jpg", "../images/art/DwarfHeim%202%20Blue.jpg", "../images/art/DwarfHeim%203.jpg",  "../images/art/DwarfHeim%204.jpg",  "../images/art/DwarfHeim%205%20Blue.jpg",  "../images/art/DwarfHeim%206%20Blue.jpg",  "../images/art/DwarfHeim%207%20Grass.jpg",  "../images/art/DwarfHeim%208%20INIT.jpg");
+var gallery = new Array("../images/art/Concept%2001%20small.jpeg", "../images/art/Concept%2002%20small.jpeg", "../images/art/Concept%2003%20small.jpeg", "../images/art/DwarfHeim%201%20small.jpeg", "../images/art/DwarfHeim%202%20Blue%20small.jpeg", "../images/art/DwarfHeim%203%20small.jpeg",  "../images/art/DwarfHeim%204%20small.jpeg",  "../images/art/DwarfHeim%205%20Blue%20small.jpeg",  "../images/art/DwarfHeim%206%20Blue%20small.jpeg",  "../images/art/DwarfHeim%207%20Grass%20small.jpeg",  "../images/art/DwarfHeim%208%20INIT%20small.jpeg");
 
 var random_gallery = Math.floor(Math.random() * gallery.length);
 
