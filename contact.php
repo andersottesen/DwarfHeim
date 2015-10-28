@@ -4,7 +4,7 @@
 
 <!-- CONTENT HERE -->
 <div class="row">
-    <div style="margin:0 auto;max-width: 460px;">
+    <div style="text-align: center">
         <header>
             <h1 style="text-align: center;">Contact us</h1>
         </header>
