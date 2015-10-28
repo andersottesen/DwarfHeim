@@ -2,11 +2,6 @@
  * Created by madeleineloras on 27/10/15.
  */
 
-var gallery1;
-var gallery2;
-var gallery3;
-var gallery4;
-
 var gallery = new Array("../images/art/Concept%2001%20small.jpeg", "../images/art/Concept%2002%20small.jpeg", "../images/art/Concept%2003%20small.jpeg", "../images/art/DwarfHeim%201%20small.jpeg", "../images/art/DwarfHeim%202%20Blue%20small.jpeg", "../images/art/DwarfHeim%203%20small.jpeg",  "../images/art/DwarfHeim%204%20small.jpeg",  "../images/art/DwarfHeim%205%20Blue%20small.jpeg",  "../images/art/DwarfHeim%206%20Blue%20small.jpeg",  "../images/art/DwarfHeim%207%20Grass%20small.jpeg",  "../images/art/DwarfHeim%208%20INIT%20small.jpeg");
 
 var random_gallery = Math.floor(Math.random() * (gallery.length));
@@ -22,11 +17,6 @@ if(random_gallery > (gallery.length-4)){
     document.getElementById("gallery3").src = gallery[random_gallery+2];
     document.getElementById("gallery4").src = gallery[random_gallery+3];
 }
-
-var crew1;
-var crew2;
-var crew3;
-var crew4;
 
 var crew = new Array("../images/team/1-t.jpg", "../images/team/2-t.jpg", "../images/team/3-t.jpg", "../images/team/4-t.jpg", "../images/team/5-t.jpg", "../images/team/6-t.jpg", "../images/team/7-t.jpg", "../images/team/8-t.jpg");
 
