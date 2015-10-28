@@ -19,7 +19,7 @@
         <li><a href="<?php echo $page["investor"] ?>">Investors</a></li>
     </ul>
     </div>
-    <img id="header-image" style="margin-top:-21px;" src="<?php echo $root.'/images/Concept 02.jpg'; ?>" width="100%" alt="">
+    <img id="header-image" style="margin-top:-21px;" src="<?php echo $root.'/images/navpic.jpg'; ?>" width="100%" alt="">
 </nav>
 <script>
     $(document).ready(function () {
