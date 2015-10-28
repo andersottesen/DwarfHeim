@@ -41,7 +41,7 @@
     </video>
   </div>
   <div id="landing-link">
-    <a href="" > Continue to the DwarfHeim webpage... </a>
+    <a href="<?php echo $page["homepage"] ?>" > Continue to the DwarfHeim webpage... </a>
   </div>
 </body>
 

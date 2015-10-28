@@ -1,7 +1,7 @@
 </div>
 <div class="container">
 
-    <img id="mountainBG" src="../images/dwarfheimbg.png" alt="">
+    <img id="mountainBG" src="<?php echo $root.'/images/dwarfheimbg.png' ?>" alt="">
     <footer id="bottom-footer">
         <div class="row">
             <div class="three columns">
