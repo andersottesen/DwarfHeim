@@ -66,15 +66,15 @@ text-align:center;
             <h2>Gallery</h2>
 
             <div class="row">
-                <div class="six columns thumbnail"><img src="images/art/DwarfHeim%203.jpg" alt="" style="float:right;">
+                <div class="six columns thumbnail"><img id="gallery1" src="images/art/DwarfHeim%203.jpg" alt="" style="float:right;">
                 </div>
-                <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/DwarfHeim%203.jpg"
+                <div class="six columns thumbnail" style="margin-left:5px;"><img id="gallery2" src="images/art/DwarfHeim%203.jpg"
                                                                                  alt="" style="float:left;"></div>
             </div>
             <div class="row" style="margin-top:5px;">
-                <div class="six columns thumbnail"><img src="images/art/DwarfHeim%203.jpg" alt="" style="float:right;">
+                <div class="six columns thumbnail"><img id="gallery3" src="images/art/DwarfHeim%203.jpg" alt="" style="float:right;">
                 </div>
-                <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/DwarfHeim%203.jpg"
+                <div class="six columns thumbnail" style="margin-left:5px;"><img id="gallery4" src="images/art/DwarfHeim%203.jpg"
                                                                                  alt="" style="float:left;"></div>
             </div>
             <h2><a href="<?php echo $page["images"] ?>">See more...</a></h2>
@@ -83,15 +83,15 @@ text-align:center;
             <h2>The crew</h2>
 
             <div class="row">
-                <div class="six columns thumbnail"><a href="<?php echo $page["about"] ?>"><img src="images/team/1-t.jpg" alt="" style="float:right;"></a>
+                <div class="six columns thumbnail"><a href="<?php echo $page["about"] ?>"><img id="crew1" src="images/team/1-t.jpg" alt="" style="float:right;"></a>
                 </div>
-                <div class="six columns thumbnail" style="margin-left:5px;"><a href="<?php echo $page["about"] ?>"><img src="images/team/2-t.jpg"
+                <div class="six columns thumbnail" style="margin-left:5px;"><a href="<?php echo $page["about"] ?>"><img id="crew2" src="images/team/2-t.jpg"
                                                                                  alt="" style="float:left;"></a></div>
             </div>
             <div class="row" style="margin-top:5px;">
-                <div class="six columns thumbnail"><a href="<?php echo $page["about"] ?>"><img src="images/team/3-t.jpg" alt="" style="float:right;"></a>
+                <div class="six columns thumbnail"><a href="<?php echo $page["about"] ?>"><img id="crew3" src="images/team/3-t.jpg" alt="" style="float:right;"></a>
                 </div>
-                <div class="six columns thumbnail" style="margin-left:5px;"><a href="<?php echo $page["about"] ?>"><img src="images/team/4-t.jpg" alt=""
+                <div class="six columns thumbnail" style="margin-left:5px;"><a href="<?php echo $page["about"] ?>"><img id="crew4" src="images/team/4-t.jpg" alt=""
                                                                                  style="float:left;"></a></div>
             </div>
             <h2><a href="<?php echo $page["about"] ?>">See more...</a></h2>
@@ -151,5 +151,7 @@ text-align:center;
 
     </div>
 </div>
+
+<script src="js/hp_randomizer.js"></script>
 
 <?php include_once "modules/footer.php"; ?>
