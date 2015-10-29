@@ -95,6 +95,14 @@ a:hover{
         font-size: 14px!important;
     }
 }
+/* Header-Image
+------------------------------------
+*/
+@media(max-width:500px){
+    #header-image{
+        display:none;
+    }
+}
 /* Bottom footer
 -------------------------------------
 */

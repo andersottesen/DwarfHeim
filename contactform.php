@@ -6,7 +6,7 @@ if (isset($_POST["name"]) && isset($_POST["message"]) && isset($_POST["email"]))
     require 'config/mail.php';
 
     $name = $_POST["name"];
-    $message = $_POST["message"];
+    $message = $name." sent a message to DwarfHeim on ".date("H:i:s j M Y").":".$_POST["message"];
     $email = $_POST["email"];
     $to = $email_address;
     $subject = '[Contact Form] '. $name.' sent you a message from ' . str_replace("http://", "",$root);
