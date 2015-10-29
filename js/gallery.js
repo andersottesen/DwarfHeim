@@ -50,6 +50,13 @@ function removeActive(){
 }
 
 function changeImage(left){
+    var loadingPicture = document.createElement("IMG");
+    loadingPicture.src = "images/gears.gif";
+    loadingPicture.style.display = "absolute";
+    loadingPicture.style.top = "50%";
+    loadingPicture.style.left = "50%";
+
+
     removeActive();
     if(left){
         imageIndex--;
