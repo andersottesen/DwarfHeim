@@ -1,3 +1,10 @@
+<!--
+FILE NAME: faq.php
+WRITTEN BY: Kristoffer Ravik Andresen
+WHEN: October 2015
+PURPOSE: This page will contain the most frequently asked question to help the visitors find answers on the questions they are asking themselves.
+-->
+
 <?php
 
 //Add questions here. "Question" => "Answer" .

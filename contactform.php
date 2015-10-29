@@ -1,3 +1,9 @@
+<!--
+FILE NAME: contactform.php
+WRITTEN BY: Kristoffer Ravik Andresen
+WHEN: October 2015
+PURPOSE: Display a message sent confirmation after sending a message from contact.php
+-->
 <?php
 include_once "modules/paths.php";
 
@@ -6,7 +12,7 @@ if (isset($_POST["name"]) && isset($_POST["message"]) && isset($_POST["email"]))
     require 'config/mail.php';
 
     $name = $_POST["name"];
-    $message = $_POST["message"];
+    $message = $name." sent a message to DwarfHeim on ".date("H:i:s j M Y").":".$_POST["message"];
     $email = $_POST["email"];
     $to = $email_address;
     $subject = '[Contact Form] '. $name.' sent you a message from ' . str_replace("http://", "",$root);

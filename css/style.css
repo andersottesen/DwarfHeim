@@ -95,6 +95,14 @@ a:hover{
         font-size: 14px!important;
     }
 }
+/* Header-Image
+------------------------------------
+*/
+@media(max-width:500px){
+    #header-image{
+        display:none;
+    }
+}
 /* Bottom footer
 -------------------------------------
 */
@@ -306,10 +314,19 @@ form button{
  margin: auto;
  padding-bottom: 10px;
 }
+#landing-page img, #landing-page video{
+    max-width:100%;
+}
+#landing-link{
+    margin-top:50px;
+}
 #landing-link > a{
  text-decoration: none;
  color: white;
  font-family: 'Caesar Dressing', cursive;
+}
+#landing-link>a:hover{
+    text-decoration: underline;
 }
 
 /* Paragraph

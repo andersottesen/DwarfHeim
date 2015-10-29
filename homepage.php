@@ -1,3 +1,9 @@
+<!--
+FILE NAME: homepage.php
+WRITTEN BY: Kristoffer Ravik Andresen
+WHEN: October 2015
+PURPOSE: Inspire the users to click further into the page and discover what DwarfHeim is all about.
+-->
 <?php $title = "DwarfHeim"; ?>
 <?php $style = "
 .thumbnail img{

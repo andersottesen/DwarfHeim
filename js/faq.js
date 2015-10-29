@@ -1,6 +1,9 @@
-/**
- * Created by Kristoffer on 15/10/2015.
- */
+/*
+FILE NAME: faq.js
+WRITTEN BY: Kristoffer Ravik Andresen
+WHEN: October 2015
+PURPOSE: Hide/display answers when question is clicked
+*/
 
 function getEventTarget(e) {
     e = e || window.event;
