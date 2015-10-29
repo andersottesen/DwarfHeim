@@ -4,6 +4,15 @@ html{
 /* Typography
 -------------------------------------
 */
+body,h1,h2,h3,h4,h5,h6,p{
+    font-family: "palatino", Times;
+    color:#000000;
+}
+
+p{
+    font-size:17px;
+}
+
 a{
     color: #E86700;
     text-decoration: none;
@@ -77,6 +86,15 @@ a:hover{
     height: 15px;
     text-decoration: none;
 }
+
+@media(max-width:900px){
+    #top-nav{
+        margin-left:0.5%;
+    }
+    .navbar li{
+        font-size: 14px!important;
+    }
+}
 /* Bottom footer
 -------------------------------------
 */
@@ -128,8 +146,11 @@ a:hover{
 
 @media (max-width: 1122px){
     #bottom-footer #contact{
-        font-size: 14px;
+
         margin:0;
+    }
+    #bottom-footer #contact p{
+        font-size: 14px;
     }
 }
 
@@ -157,9 +178,7 @@ a:hover{
 @media (max-width: 640px) {
     #contact p{
         margin-left: -50px !important;
-    }
-    #bottom-footer #contact{
-        font-size: 12px;
+        font-size: 12px!important;
     }
 }
 @media (max-width: 549px){
@@ -180,13 +199,15 @@ a:hover{
         margin: 0 !important;
     }
     #bottom-footer #contact{
-        font-size: 14px;
         width:100%;
         height:75px;
         border-right:none;
         border-top: 1px solid #b6b6b6;
         text-align: center;
         padding-top:25px;
+    }
+    #bottom-footer #contact p{
+        font-size: 14px!important;
     }
 }
 #main-container{
@@ -285,8 +306,29 @@ form button{
  margin: auto;
  padding-bottom: 10px;
 }
+#landing-page img, #landing-page video{
+    max-width:100%;
+}
+#landing-link{
+    margin-top:50px;
+}
 #landing-link > a{
  text-decoration: none;
  color: white;
  font-family: 'Caesar Dressing', cursive;
+}
+#landing-link>a:hover{
+    text-decoration: underline;
+}
+
+/* Paragraph
+-----------------------------
+*/
+.paragraph {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.paragraph img{
+    max-width:100%;
 }

@@ -1,15 +1,32 @@
 <?php $title = "DwarfHeim"; ?>
 <?php $style = "
 .thumbnail img{
-    width: 100px; height: 100px; max-width: 100%; max-height: 100%;
+    width: auto; height: auto; max-width: 100%; max-height: 100%;
 }
 @media (max-width:700px){
-    .thumbnail img{
-        float:none;
+    #gallery, #crew{
+        display:none;
+    }
+    .right{
+        margin-left:0!important;
+        width:100%!important;
+    }
+}
+@media (min-width:701px){
+    .mobile{
+        display:none;
+    }
+}
+@media (max-width:549px){
+    #gallery-mobile{
+        display:none;
+    }
+    #gallery-mobile img{
+        max-width:40%;
     }
 }
 h1,h2{
-text-align:center;
+    text-align:center;
 }
 "; ?>
 <?php include_once("modules/head.php") ?>
@@ -46,41 +63,42 @@ text-align:center;
 
 <div class="row">
     <div class="four columns">
-        <div class="row" style="margin-top:80px;">
+        <div class="row" id="gallery" style="margin-top:80px;">
             <h2>Gallery</h2>
 
             <div class="row">
-                <div class="six columns thumbnail"><img src="images/art/DwarfHeim%203.jpg" alt="" style="float:right;">
+                <div class="six columns thumbnail"><img id="gallery1" src="images/art/DwarfHeim%203.jpg" alt="" style="float:right;">
                 </div>
-                <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/DwarfHeim%203.jpg"
+                <div class="six columns thumbnail" style="margin-left:5px;"><img id="gallery2" src="images/art/DwarfHeim%203.jpg"
                                                                                  alt="" style="float:left;"></div>
             </div>
             <div class="row" style="margin-top:5px;">
-                <div class="six columns thumbnail"><img src="images/art/DwarfHeim%203.jpg" alt="" style="float:right;">
+                <div class="six columns thumbnail"><img id="gallery3" src="images/art/DwarfHeim%203.jpg" alt="" style="float:right;">
                 </div>
-                <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/DwarfHeim%203.jpg"
+                <div class="six columns thumbnail" style="margin-left:5px;"><img id="gallery4" src="images/art/DwarfHeim%203.jpg"
                                                                                  alt="" style="float:left;"></div>
             </div>
             <h2><a href="<?php echo $page["images"] ?>">See more...</a></h2>
         </div>
-        <div class="row" style="margin-top:230px;">
+        <div class="row" id="crew" style="margin-top:230px;">
             <h2>The crew</h2>
+
             <div class="row">
-                <div class="six columns thumbnail"><img src="images/art/DwarfHeim%203.jpg" alt="" style="float:right;">
+                <div class="six columns thumbnail"><a href="<?php echo $page["about"] ?>"><img id="crew1" src="images/team/1-t.jpg" alt="" style="float:right;"></a>
                 </div>
-                <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/DwarfHeim%203.jpg"
-                                                                                 alt="" style="float:left;"></div>
+                <div class="six columns thumbnail" style="margin-left:5px;"><a href="<?php echo $page["about"] ?>"><img id="crew2" src="images/team/2-t.jpg"
+                                                                                 alt="" style="float:left;"></a></div>
             </div>
             <div class="row" style="margin-top:5px;">
-                <div class="six columns thumbnail"><img src="images/art/DwarfHeim%203.jpg" alt="" style="float:right;">
+                <div class="six columns thumbnail"><a href="<?php echo $page["about"] ?>"><img id="crew3" src="images/team/3-t.jpg" alt="" style="float:right;"></a>
                 </div>
-                <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/DwarfHeim%203.jpg"
-                                                                                 alt="" style="float:left;"></div>
+                <div class="six columns thumbnail" style="margin-left:5px;"><a href="<?php echo $page["about"] ?>"><img id="crew4" src="images/team/4-t.jpg" alt=""
+                                                                                 style="float:left;"></a></div>
             </div>
             <h2><a href="<?php echo $page["about"] ?>">See more...</a></h2>
         </div>
     </div>
-    <div class="offset-by-one seven columns">
+    <div class="offset-by-one seven columns right">
 
         <header class="row">
             <h1>DwarfHeim</h1>
@@ -92,6 +110,39 @@ text-align:center;
                 on our ideas and eventually get testers. Read more about the game <a
                     href="<?php echo $page["dwarfheim"] ?>">here</a>.</h3>
         </section>
+        <div class="row mobile" id="gallery-mobile" style="margin-top:80px;">
+            <h2>Gallery</h2>
+
+            <div class="row">
+                <div class="six columns thumbnail"><img src="images/art/DwarfHeim%204%20small.jpeg" alt="" style="float:right;">
+                </div>
+                <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/Concept%2001%20small.jpeg"
+                                                                                 alt="" style="float:left;"></div>
+            </div>
+            <div class="row" style="margin-top:5px;">
+                <div class="six columns thumbnail"><img src="images/art/Concept%2002%20small.jpeg" alt="" style="float:right;">
+                </div>
+                <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/Concept%2003%20small.jpeg"
+                                                                                 alt="" style="float:left;"></div>
+            </div>
+            <h2><a href="<?php echo $page["images"] ?>">See more...</a></h2>
+
+            <h2 style="margin-top:100px;">The crew</h2>
+
+            <div class="row">
+                <div class="six columns thumbnail"><a href="<?php echo $page["about"] ?>"><img id="crew1" src="images/team/1-t.jpg" alt="" style="float:right;"></a>
+                </div>
+                <div class="six columns thumbnail" style="margin-left:5px;"><a href="<?php echo $page["about"] ?>"><img id="crew2" src="images/team/2-t.jpg"
+                                                                                                                        alt="" style="float:left;"></a></div>
+            </div>
+            <div class="row" style="margin-top:5px;">
+                <div class="six columns thumbnail"><a href="<?php echo $page["about"] ?>"><img id="crew3" src="images/team/3-t.jpg" alt="" style="float:right;"></a>
+                </div>
+                <div class="six columns thumbnail" style="margin-left:5px;"><a href="<?php echo $page["about"] ?>"><img id="crew4" src="images/team/4-t.jpg" alt=""
+                                                                                                                        style="float:left;"></a></div>
+            </div>
+            <h2><a href="<?php echo $page["about"] ?>">See more...</a></h2>
+        </div>
         <header class="row" style="margin-top:150px;">
             <h1>News</h1>
         </header>
@@ -117,5 +168,7 @@ text-align:center;
 
     </div>
 </div>
+
+<script src="js/hp_randomizer.js"></script>
 
 <?php include_once "modules/footer.php"; ?>
