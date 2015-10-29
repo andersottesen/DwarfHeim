@@ -31,29 +31,54 @@ var imageArray = ["images/art/Concept 01.jpg",
 myPhoto.src = imageArray[0];
 
 
-var smallImageArray = ["images/art/Concept 01 small.jpg",
-    "images/art/Concept 02 small.jpg",
-    "images/art/Concept 03 small.jpg",
-    "images/art/DwarfHeim 1 small.jpg",
-    "images/art/DwarfHeim 2 Blue small.jpg",
-    "images/art/DwarfHeim 3 small.jpg",
-    "images/art/DwarfHeim 4 small.jpg",
-    "images/art/DwarfHeim 5 Blue small.jpg",
-    "images/art/DwarfHeim 6 Blue small.jpg",
-    "images/art/DwarfHeim 7 Grass small.jpg",
-    "images/art/DwarfHeim 8 INIT small.jpg"
-
+var smallImageArray = ["images/art/Concept 01 small.jpeg",
+    "images/art/Concept 02 small.jpeg",
+    "images/art/Concept 03 small.jpeg",
+    "images/art/DwarfHeim 1 small.jpeg",
+    "images/art/DwarfHeim 2 Blue small.jpeg",
+    "images/art/DwarfHeim 3 small.jpeg",
+    "images/art/DwarfHeim 4 small.jpeg",
+    "images/art/DwarfHeim 5 Blue small.jpeg",
+    "images/art/DwarfHeim 6 Blue small.jpeg",
+    "images/art/DwarfHeim 7 Grass small.jpeg",
+    "images/art/DwarfHeim 8 INIT small.jpeg"
 ];
+loadSmallImages();
 
+function loadSmallImages(){
+    for(var i = 0; i < smallImageArray.length;i++){
+        var element = document.createElement("img");
+        element.setAttribute("id",i);
+        element.setAttribute("src",smallImageArray[i]);
+        element.setAttribute("width","60");
+        document.getElementById("smallSlideshow").appendChild(element);
+        if(i == 0){
+             element.className += " active";
+        }
+        element.addEventListener("click", function(){
+            this.className = "";
+            imageIndex = parseInt(this.id)+1;
+            changeImage(true);
+        });
+    }
+
+
+}
+
+
+function removeActive(){
+    for(var i = 0; i < smallImageArray.length; i++){
+        document.getElementById(i).className = "";
+    }
+}
 
 function changeImage(left){
+    removeActive();
     if(left){
         imageIndex--;
     }else{
         imageIndex++;
     }
-    console.log(imageIndex);
-
     if(imageIndex >= imageArray.length){
         imageIndex = 0;
     }
@@ -63,18 +88,12 @@ function changeImage(left){
 
     myPhoto.src = imageArray[imageIndex];
 
+    var smallPhoto = document.getElementById(imageIndex.toString());
+    smallPhoto.className += " active";
 }
 
-function smallSlideShow(){
-    for(var i = 0; i < smallImageArray.length;i++){
-        document.getElementById("smallSlideshow").appendChild(smallImageArray[i]);
-    }
-}
 
 function show(){
     console.log("hover");
     this.style.visibility = "visible";
 }
-
-smallSlideShow();
-

@@ -18,6 +18,22 @@
         </div>
     </div>
 
+    <script>
+        <?php
+            $dir = new DirectoryIterator(dirname(__FILE__)."\\images\\art\\small");
+            echo $dir;
+            echo 'var smallImageArray = [';
+            foreach($dir as $fileinfo){
+                if(!$fileinfo ->isDot()){
+                    echo '"images/art/small/'.$fileinfo->getFilename().'",';
+                }
+            }
+            echo '];';
+
+        ?>
+    </script>
+
+
     <div id="smallSlideshow"></div>
 
 </div>
