@@ -20,24 +20,34 @@
 
     <script>
         <?php
-            $dir = new DirectoryIterator(dirname(__FILE__)."\\images\\art\\small");
+
+            $path = "images/art/small";
             echo 'var smallImageArray = [';
-            foreach($dir as $fileinfo){
-                if(!$fileinfo ->isDot()){
-                    echo '"images/art/small/'.$fileinfo->getFilename().'",';
+
+            if ($handle = opendir($path)) {
+                while (false !== ($file = readdir($handle))) {
+                    if ('.' === $file) continue;
+                    if ('..' === $file) continue;
+
+                    // do something with the file
+                    echo '"images/art/small/'.$file.'",';
                 }
+            closedir($handle);
             }
             echo '];';
 
-            echo "\r\n";
-            echo "\r\n";
-
-            $dir = new DirectoryIterator(dirname(__FILE__)."\\images\\art\\large");
+            $path = "images/art/large";
             echo 'var imageArray = [';
-            foreach($dir as $fileinfo){
-                if(!$fileinfo ->isDot()){
-                    echo '"images/art/large/'.$fileinfo->getFilename().'",';
+
+            if ($handle = opendir($path)) {
+                while (false !== ($file = readdir($handle))) {
+                    if ('.' === $file) continue;
+                    if ('..' === $file) continue;
+
+                    // do something with the file
+                    echo '"images/art/large/'.$file.'",';
                 }
+            closedir($handle);
             }
             echo '];';
 
