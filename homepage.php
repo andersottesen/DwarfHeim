@@ -18,14 +18,15 @@
     }
 }
 @media (max-width:549px){
-    .mobile{
-        #gallery, #crew{
-        float:none;
-        }
+    #gallery-mobile{
+        display:none;
+    }
+    #gallery-mobile img{
+        max-width:40%;
     }
 }
 h1,h2{
-text-align:center;
+    text-align:center;
 }
 "; ?>
 <?php include_once("modules/head.php") ?>
@@ -113,18 +114,34 @@ text-align:center;
             <h2>Gallery</h2>
 
             <div class="row">
-                <div class="six columns thumbnail"><img src="images/art/DwarfHeim%203.jpg" alt="" style="float:right;">
+                <div class="six columns thumbnail"><img src="images/art/DwarfHeim%204%20small.jpeg" alt="" style="float:right;">
                 </div>
-                <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/DwarfHeim%203.jpg"
+                <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/Concept%2001%20small.jpeg"
                                                                                  alt="" style="float:left;"></div>
             </div>
             <div class="row" style="margin-top:5px;">
-                <div class="six columns thumbnail"><img src="images/art/DwarfHeim%203.jpg" alt="" style="float:right;">
+                <div class="six columns thumbnail"><img src="images/art/Concept%2002%20small.jpeg" alt="" style="float:right;">
                 </div>
-                <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/DwarfHeim%203.jpg"
+                <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/Concept%2003%20small.jpeg"
                                                                                  alt="" style="float:left;"></div>
             </div>
             <h2><a href="<?php echo $page["images"] ?>">See more...</a></h2>
+
+            <h2 style="margin-top:100px;">The crew</h2>
+
+            <div class="row">
+                <div class="six columns thumbnail"><a href="<?php echo $page["about"] ?>"><img id="crew1" src="images/team/1-t.jpg" alt="" style="float:right;"></a>
+                </div>
+                <div class="six columns thumbnail" style="margin-left:5px;"><a href="<?php echo $page["about"] ?>"><img id="crew2" src="images/team/2-t.jpg"
+                                                                                                                        alt="" style="float:left;"></a></div>
+            </div>
+            <div class="row" style="margin-top:5px;">
+                <div class="six columns thumbnail"><a href="<?php echo $page["about"] ?>"><img id="crew3" src="images/team/3-t.jpg" alt="" style="float:right;"></a>
+                </div>
+                <div class="six columns thumbnail" style="margin-left:5px;"><a href="<?php echo $page["about"] ?>"><img id="crew4" src="images/team/4-t.jpg" alt=""
+                                                                                                                        style="float:left;"></a></div>
+            </div>
+            <h2><a href="<?php echo $page["about"] ?>">See more...</a></h2>
         </div>
         <header class="row" style="margin-top:150px;">
             <h1>News</h1>
