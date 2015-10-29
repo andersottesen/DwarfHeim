@@ -23,9 +23,13 @@
     top: 0;
     position: absolute;
     z-index: 9999;
-    opacity: 0.2;
+    opacity: 0;
     background-color: #d6d6d6;
 
+}
+.holder:hover{
+    opacity: 0.2;
+    cursor: pointer;
 }
 
 .holder i{
@@ -55,9 +59,11 @@
 #smallSlideshow img{
     display: inline-block;
     margin: 3px;
-    border-width: 1px;
-    border-color: white;
-    border-style: solid;
+    border: 1px solid white;
+}
+#smallSlideshow img:hover{
+    cursor: pointer;
+    border:1px solid rgba(232, 103, 0, 1);
 }
 
 .active{
