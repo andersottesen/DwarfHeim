@@ -35,7 +35,7 @@ p{
 
     <section class="content">
 
-        <img class="picture" src="images/art/Concept 03.jpg" alt="">
+        <img class="picture" src="images/art/large/Concept 03.jpg" alt="">
         <p>
             “DwarfHeim” is a real time strategy computer game where four players cooperate together to create a thriving dwarf society and survive a neverending horde of orc attacks.
             Each player chooses one of four classes, which all have their unique tasks and skills. The game focus on cooperation. Sharing limited resources makes teamwork an important skill needed to survive.

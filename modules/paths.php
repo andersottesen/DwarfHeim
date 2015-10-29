@@ -1,9 +1,10 @@
 <?php
-$root = "http://localhost";
+$root = "http://folk.ntnu.no/larsfkl/IT2805/DwarfHeim";
 
 $css = array(
    "style" => $root."/css/style.css",
    "grid" => $root."/css/grid.css",
+    "media" => $root."/css/meida.css",
 );
 
 $js = array(
