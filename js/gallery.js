@@ -17,32 +17,9 @@ rightHolder.addEventListener("click",function(){
 //rightHolder.addEventListener("mouseover",show);
 
 var imageIndex = 0;
-var imageArray = ["images/art/Concept 01.jpg",
-"images/art/Concept 02.jpg",
-"images/art/Concept 03.jpg",
-"images/art/DwarfHeim 1.jpg",
-"images/art/DwarfHeim 2 Blue.jpg",
-"images/art/DwarfHeim 3.jpg",
-"images/art/DwarfHeim 4.jpg",
-"images/art/DwarfHeim 5 Blue.jpg",
-"images/art/DwarfHeim 6 Blue.jpg",
-"images/art/DwarfHeim 7 Grass.jpg",
-"images/art/DwarfHeim 8 INIT.jpg"];
+
 myPhoto.src = imageArray[0];
 
-
-var smallImageArray = ["images/art/Concept 01 small.jpeg",
-    "images/art/Concept 02 small.jpeg",
-    "images/art/Concept 03 small.jpeg",
-    "images/art/DwarfHeim 1 small.jpeg",
-    "images/art/DwarfHeim 2 Blue small.jpeg",
-    "images/art/DwarfHeim 3 small.jpeg",
-    "images/art/DwarfHeim 4 small.jpeg",
-    "images/art/DwarfHeim 5 Blue small.jpeg",
-    "images/art/DwarfHeim 6 Blue small.jpeg",
-    "images/art/DwarfHeim 7 Grass small.jpeg",
-    "images/art/DwarfHeim 8 INIT small.jpeg"
-];
 loadSmallImages();
 
 function loadSmallImages(){
