@@ -1,3 +1,9 @@
+<!--
+FILE NAME: contact.php
+WRITTEN BY: Kristoffer Ravik Andresen
+WHEN: October 2015
+PURPOSE: Provide a contact form where messages can be sent to the DwarfHeim team
+-->
 <?php $title = "Contact"; ?>
 <?php include_once("modules/head.php") ?>
 <?php include_once("modules/nav.php"); ?>

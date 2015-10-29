@@ -1,3 +1,9 @@
+<!--
+FILE NAME: about.php
+WRITTEN BY: Kristoffer Ravik Andresen
+WHEN: October 2015
+PURPOSE: Prove information about the members of DwarfHeim
+-->
 <?php $title = "About the Crew"; ?>
 <?php $style = "
 h1,h2,h3,p{

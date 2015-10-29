@@ -1,3 +1,9 @@
+<!--
+FILE NAME: contactform.php
+WRITTEN BY: Kristoffer Ravik Andresen
+WHEN: October 2015
+PURPOSE: Display a message sent confirmation after sending a message from contact.php
+-->
 <?php
 include_once "modules/paths.php";
 
