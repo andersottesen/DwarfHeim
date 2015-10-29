@@ -1,5 +1,5 @@
 <?php
-$root = "http://folk.ntnu.no/larsfkl/IT2805/DwarfHeim";
+$root = "http://localhost";
 
 $css = array(
    "style" => $root."/css/style.css",

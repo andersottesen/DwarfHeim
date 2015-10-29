@@ -73,15 +73,15 @@ h1,h2{
             <h2>Gallery</h2>
 
             <div class="row">
-                <div class="six columns thumbnail"><img id="gallery1" src="images/art/DwarfHeim%203.jpg" alt="" style="float:right;">
+                <div class="six columns thumbnail"><img id="gallery1" src="images/art/large/DwarfHeim%203.jpg" alt="" style="float:right;">
                 </div>
-                <div class="six columns thumbnail" style="margin-left:5px;"><img id="gallery2" src="images/art/DwarfHeim%203.jpg"
+                <div class="six columns thumbnail" style="margin-left:5px;"><img id="gallery2" src="images/art/large/DwarfHeim%203.jpg"
                                                                                  alt="" style="float:left;"></div>
             </div>
             <div class="row" style="margin-top:5px;">
-                <div class="six columns thumbnail"><img id="gallery3" src="images/art/DwarfHeim%203.jpg" alt="" style="float:right;">
+                <div class="six columns thumbnail"><img id="gallery3" src="images/art/large/DwarfHeim%203.jpg" alt="" style="float:right;">
                 </div>
-                <div class="six columns thumbnail" style="margin-left:5px;"><img id="gallery4" src="images/art/DwarfHeim%203.jpg"
+                <div class="six columns thumbnail" style="margin-left:5px;"><img id="gallery4" src="images/art/large/DwarfHeim%203.jpg"
                                                                                  alt="" style="float:left;"></div>
             </div>
             <h2><a href="<?php echo $page["images"] ?>">See more...</a></h2>
@@ -110,7 +110,7 @@ h1,h2{
             <h1>DwarfHeim</h1>
         </header>
         <section class="row">
-            <img src="images/art/Concept%2003.jpg" alt="" style="max-width: 100%;">
+            <img src="images/art/large/Concept%2003.jpg" alt="" style="max-width: 100%;">
 
             <h3>DwarfHeim is a pc-game under developement in Norway. During developement we would love to get feedback
                 on our ideas and eventually get testers. Read more about the game <a
@@ -120,15 +120,15 @@ h1,h2{
             <h2>Gallery</h2>
 
             <div class="row">
-                <div class="six columns thumbnail"><img src="images/art/DwarfHeim%204%20small.jpeg" alt="" style="float:right;">
+                <div class="six columns thumbnail"><img src="images/art/small/DwarfHeim%204%20small.jpeg" alt="" style="float:right;">
                 </div>
-                <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/Concept%2001%20small.jpeg"
+                <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/small/Concept%2001%20small.jpeg"
                                                                                  alt="" style="float:left;"></div>
             </div>
             <div class="row" style="margin-top:5px;">
-                <div class="six columns thumbnail"><img src="images/art/Concept%2002%20small.jpeg" alt="" style="float:right;">
+                <div class="six columns thumbnail"><img src="images/art/small/Concept%2002%20small.jpeg" alt="" style="float:right;">
                 </div>
-                <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/Concept%2003%20small.jpeg"
+                <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/small/Concept%2003%20small.jpeg"
                                                                                  alt="" style="float:left;"></div>
             </div>
             <h2><a href="<?php echo $page["images"] ?>">See more...</a></h2>
