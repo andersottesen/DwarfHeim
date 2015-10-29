@@ -6,14 +6,19 @@
 
 
 <!-- CONTENT HERE -->
+
 <div id="slideshow">
-    <img id="myPhoto" src="">
-    <div class="holder" id="leftHolder">
-        <i class="fa fa-arrow-circle-o-left fa-5x"></i>
+    <div id="mainSlideshow">
+        <img id="myPhoto" src="">
+        <div class="holder" id="leftHolder">
+           <i class="fa fa-arrow-circle-o-left fa-5x"></i>
+        </div>
+        <div class="holder" id="rightHolder">
+            <i class="fa fa-arrow-circle-o-right fa-5x"></i>
+        </div>
     </div>
-    <div class="holder" id="rightHolder">
-        <i class="fa fa-arrow-circle-o-right fa-5x"></i>
-    </div>
+
+    <div id="smallSlideshow"></div>
 
 </div>
 
