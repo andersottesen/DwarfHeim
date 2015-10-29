@@ -1,41 +1,20 @@
+<!--
+FILE NAME: dwarfheim.php
+WRITTEN BY: Marian Aspas
+WHEN: 29. october 2015
+-->
 <?php $title = "The Game"; ?>
-<?php $style = "
-h1,h2,h3,p{
-    text-align: left;
-}
-p{
-    padding-top:10px;
-    text-align: left;
-    font-size: 17px;
-    margin:0;
-}
-
-.picture{
-    max-width: 30%;
-    max-height: 25%;
-    position: relative;
-    position: left;
-    padding-top:10px;
-    padding-bottom: 10px;
-}
-.main{
-    padding-left:50px;
-    padding-right:50px;
-    font-family:Palatino;
-}
-"; ?>
 <?php include_once("modules/head.php") ?>
 <?php include_once("modules/nav.php"); ?>
 
-<!-- CONTENT HERE -->
-<div class="main">
+<div class="paragraph">
     <header>
         <h1>About the game</h1>
     </header>
 
     <section class="content">
 
-        <img class="picture" src="images/art/Concept 03.jpg" alt="">
+        <img class="picture" src="images/art/Concept 03.jpg" alt="Dwarfheim picture" width="400px" height="200px">
         <p>
             “DwarfHeim” is a real time strategy computer game where four players cooperate together to create a thriving dwarf society and survive a neverending horde of orc attacks.
             Each player chooses one of four classes, which all have their unique tasks and skills. The game focus on cooperation. Sharing limited resources makes teamwork an important skill needed to survive.
