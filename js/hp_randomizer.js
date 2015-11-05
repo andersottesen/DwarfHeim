@@ -2,7 +2,7 @@
  * Created by madeleineloras on 27/10/15.
  */
 
-var gallery = new Array("../images/art/small/Concept%2001%20small.jpeg", "../images/art/small/Concept%2002%20small.jpeg", "../images/art/small/Concept%2003%20small.jpeg", "../images/art/small/DwarfHeim%201%20small.jpeg", "../images/art/small/DwarfHeim%202%20Blue%20small.jpeg", "../images/art/small/DwarfHeim%203%20small.jpeg",  "../images/art/small/DwarfHeim%204%20small.jpeg",  "../images/art/small/DwarfHeim%205%20Blue%20small.jpeg",  "../images/art/small/DwarfHeim%206%20Blue%20small.jpeg",  "../images/art/small/DwarfHeim%207%20Grass%20small.jpeg",  "../images/art/small/DwarfHeim%208%20INIT%20small.jpeg", "../images/art/geologist_video.png", "../images/art/tnt_video.png", "../images/art/miner_video.png");
+var gallery = new Array("../images/art/small/Concept%2001%20small.jpeg", "../images/art/small/Concept%2002%20small.jpeg", "../images/art/small/Concept%2003%20small.jpeg", "../images/art/small/DwarfHeim%201%20small.jpeg", "../images/art/small/DwarfHeim%202%20Blue%20small.jpeg", "../images/art/small/DwarfHeim%203%20small.jpeg",  "../images/art/small/DwarfHeim%204%20small.jpeg",  "../images/art/small/DwarfHeim%205%20Blue%20small.jpeg",  "../images/art/small/DwarfHeim%206%20Blue%20small.jpeg",  "../images/art/small/DwarfHeim%207%20Grass%20small.jpeg",  "../images/art/small/DwarfHeim%208%20INIT%20small.jpeg", "../images/art/videoImages/geologist.png", "../images/art/videoImages/tnt.png", "../images/art/videoImages/miner.png");
 var galleryIndex= new Array(); //Liste med tall fra 0 til antall bilder i galleriet.
 var randomGallery = new Array(); //Liste med fire tilfeldige tall som er indexen som skal
 
