@@ -24,14 +24,16 @@ a:hover{
 -------------------------------------
 */
 #top-nav{
+    color:  #E86700;
+    background-color: #fffce9;
     margin-left:1%;
 }
+
 .navbar {
     width: 100%;
     text-align: center;
     display:inline-block;
     list-style-type:none;
-    text-align:center;
     padding:0;
 }
 .navbar li {
@@ -63,8 +65,7 @@ a:hover{
     padding: 18px 0;
     text-decoration: none;
     display: block;
-    color:  #E86700;
-    background-color: #fffce9;
+
 }
 .navbar li:hover{
     opacity: 1;
@@ -87,6 +88,38 @@ a:hover{
     text-decoration: none;
 }
 
+.mobile-menu {
+    width: 100%;
+    text-align: left;
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.mobile-menu li, label {
+    text-align: left;
+    list-style: none;
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left:20px;
+    margin: 0;
+    opacity: 0.72;
+    border: 2px solid #767676;
+    position: relative;
+}
+
+.mobile-menu{
+    max-width: 100%;
+}
+
+#drop-menu{
+    width: 100px;
+    height: 100px;
+    vertical-align:middle;
+}
+
 @media(max-width:900px){
     #top-nav{
         margin-left:0.5%;
@@ -94,6 +127,15 @@ a:hover{
     .navbar li{
         font-size: 14px!important;
     }
+}
+@media(max-width:700px){
+    .navbar{
+        display: none;
+    }
+    .mobile-menu{
+        display:block;
+    }
+
 }
 /* Header-Image
 ------------------------------------
