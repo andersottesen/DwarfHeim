@@ -2,7 +2,7 @@
  FILE NAME: hp_cookie.js
  WRITTEN BY: Kristoffer Ravik Andresen
  WHEN: October 2015
- PURPOSE: Redirect to homepage
+ PURPOSE: Set cookie to prevent redirection from homepage
  */
 function getCookie(cname) {
     var name = cname + "=";
