@@ -14,7 +14,7 @@ if($host === "smtp.localhost.com"){
     require 'vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
 
     $name = $_POST["name"];
-    $message = $name." sent a message to DwarfHeim on ".date("H:i:s j M Y").":".$_POST["message"];
+    $message = $name." sent a message to DwarfHeim on ".date("H:i:s j M Y").":<br/><div style=\"border-left:2px solid rgba(0,153,255,0.5);min-height:50px;width:350px; max-width:100%;\"> <hr/><p style=\"padding-left:15px;\">" .$_POST["message"]."</p></div>";
     $email = $_POST["email"];
     $to = $email_address;
     $subject = '[Contact Form] '. $name.' sent you a message from ' . str_replace("http://", "",$root);

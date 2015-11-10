@@ -1,5 +1,5 @@
 /*
- FILE NAME: hp_cookie.js
+ FILE NAME: lp_cookie.js
  WRITTEN BY: Kristoffer Ravik Andresen
  WHEN: October 2015
  PURPOSE: Set cookie to prevent redirection from homepage
