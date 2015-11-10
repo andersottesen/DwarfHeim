@@ -39,13 +39,13 @@
 
 
     $(document).ready(function () {
-        $('.mobile-menu').hover(
+        $('#content',this).hide();
+        $('.mobile-menu').click(
             function () {
-                $('#content', this).fadeIn(200);
-            },
-            function () {
-                $('#content', this).fadeOut(200);
+                $('#content').slideToggle();
             }
+
+
         );
     });
 
