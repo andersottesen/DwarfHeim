@@ -6,10 +6,12 @@ PURPOSE: Display a message sent confirmation after sending a message from contac
 -->
 <?php
 include_once "modules/paths.php";
-
-if (isset($_POST["name"]) && isset($_POST["message"]) && isset($_POST["email"])) {
+require 'config/mail.php';
+if($host === "smtp.localhost.com"){
+    $status = 'Email has not been configured on this server';
+    $success = false;
+}elseif (isset($_POST["name"]) && isset($_POST["message"]) && isset($_POST["email"])) {
     require 'vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
-    require 'config/mail.php';
 
     $name = $_POST["name"];
     $message = $name." sent a message to DwarfHeim on ".date("H:i:s j M Y").":".$_POST["message"];

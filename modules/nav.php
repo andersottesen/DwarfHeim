@@ -15,7 +15,7 @@
         <li><a href="<?php echo $page["investor"] ?>">Investors</a></li>
     </ul>
     </div>
-    <img id="header-image" style="margin-top:-21px;" src="<?php echo $root.'/images/Navpic.jpg'; ?>" width="100%" alt="">
+    <img id="header-image" src="<?php echo $root.'/images/Navpic.jpg'; ?>" alt="DwarfHeim header image">
 </nav>
 <script>
     $(document).ready(function () {

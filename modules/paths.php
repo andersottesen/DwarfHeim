@@ -1,5 +1,5 @@
 <?php
-$root = "http://localhost";
+require "config/config.php";
 
 $css = array(
    "style" => $root."/css/style.css",

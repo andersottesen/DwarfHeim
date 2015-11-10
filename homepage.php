@@ -24,17 +24,22 @@ PURPOSE: Inspire the users to click further into the page and discover what Dwar
     }
 }
 @media (max-width:549px){
+.columns{
+width:48%;
+}
     #gallery-mobile{
-        display:none;
     }
     #gallery-mobile img{
-        max-width:40%;
+
     }
 }
 h1,h2{
     text-align:center;
 }
 "; ?>
+<?php $head='
+<script src="js/hp_cookie.js"></script>
+'; ?>
 <?php include_once("modules/head.php") ?>
 <div id="fb-root"></div>
 <script>(function (d, s, id) {
@@ -45,26 +50,6 @@ h1,h2{
         js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=223526007723742";
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
-<script>
-    function getCookie(cname) {
-        var name = cname + "=";
-        var ca = document.cookie.split(';');
-        for (var i = 0; i < ca.length; i++) {
-            var c = ca[i];
-            while (c.charAt(0) == ' ') c = c.substring(1);
-            if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
-        }
-        return "";
-    }
-
-    function checkCookie() {
-        var cookie = getCookie("lp_visited");
-        if (cookie == "") {
-            window.location = "<?php echo $page["landingpage"] ?>";
-        }
-    }
-    checkCookie();
-</script>
 <?php include_once("modules/nav.php"); ?>
 
 <div class="row">
@@ -136,15 +121,15 @@ h1,h2{
             <h2 style="margin-top:100px;">The crew</h2>
 
             <div class="row">
-                <div class="six columns thumbnail"><a href="<?php echo $page["about"] ?>"><img id="crew1" src="images/team/1-t.jpg" alt="" style="float:right;"></a>
+                <div class="six columns thumbnail"><a href="<?php echo $page["about"] ?>"><img src="images/team/1-t.jpg" alt="" style="float:right;"></a>
                 </div>
-                <div class="six columns thumbnail" style="margin-left:5px;"><a href="<?php echo $page["about"] ?>"><img id="crew2" src="images/team/2-t.jpg"
+                <div class="six columns thumbnail" style="margin-left:5px;"><a href="<?php echo $page["about"] ?>"><img src="images/team/2-t.jpg"
                                                                                                                         alt="" style="float:left;"></a></div>
             </div>
             <div class="row" style="margin-top:5px;">
-                <div class="six columns thumbnail"><a href="<?php echo $page["about"] ?>"><img id="crew3" src="images/team/3-t.jpg" alt="" style="float:right;"></a>
+                <div class="six columns thumbnail"><a href="<?php echo $page["about"] ?>"><img src="images/team/3-t.jpg" alt="" style="float:right;"></a>
                 </div>
-                <div class="six columns thumbnail" style="margin-left:5px;"><a href="<?php echo $page["about"] ?>"><img id="crew4" src="images/team/4-t.jpg" alt=""
+                <div class="six columns thumbnail" style="margin-left:5px;"><a href="<?php echo $page["about"] ?>"><img src="images/team/4-t.jpg" alt=""
                                                                                                                         style="float:left;"></a></div>
             </div>
             <h2><a href="<?php echo $page["about"] ?>">See more...</a></h2>
