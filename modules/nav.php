@@ -20,12 +20,13 @@
 
 
         <ul class="mobile-menu">
-            <li><a><img id="drop-menu" src="<?php echo $root.'/images/art/small/DwarfHeim 8 INIT small.jpeg'; ?>"> Menu </a></li>
+            <li id="mainMenu"><a><img id="drop-menu" src="<?php echo $root.'/images/art/small/DwarfHeim 8 INIT small.jpeg'; ?>"> Menu </a></li>
                 <ul id="content">
                     <li><a href="<?php echo $page["homepage"] ?>">Home</a></li>
                     <li><a href="<?php echo $page["media"] ?>">Media</a></li>
                     <li><a href="<?php echo $page["dwarfheim"] ?>">The Game</a></li>
                     <li><a href="<?php echo $page["about"] ?>">The Crew</a></li>
+                    <li><a href="<?php echo $page["contact"] ?>"> Contact </a></li>
                     <li><a href="<?php echo $page["faq"] ?>">FAQ</a></li>
                     <li><a href="<?php echo $page["investor"] ?>">Investors</a></li>
                 </ul>
@@ -40,7 +41,7 @@
 
     $(document).ready(function () {
         $('#content',this).hide();
-        $('.mobile-menu').click(
+        $('#mainMenu').click(
             function () {
                 $('#content').slideToggle();
             }
