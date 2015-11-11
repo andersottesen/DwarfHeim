@@ -87,7 +87,7 @@ h2{
 
                 <p>Tlf: 123 45 678</p>
 
-                <p style="margin-top:10px;"><a href="crew/knut">Mer info</a></p>
+                <p style="margin-top:10px;"><a href="crew/eirikh">Mer info</a></p>
             </div>
         </div>
         <div class="four columns">
@@ -101,7 +101,7 @@ h2{
 
                 <p>Tlf: 123 45 678</p>
 
-                <p style="margin-top:10px;"><a href="crew/knut">Mer info</a></p>
+                <p style="margin-top:10px;"><a href="crew/eirikf">Mer info</a></p>
             </div>
         </div>
     </section>
@@ -122,7 +122,7 @@ h2{
 
                 <p>Tlf: 123 45 678</p>
 
-                <p style="margin-top:10px;"><a href="crew/knut">Mer info</a></p>
+                <p style="margin-top:10px;"><a href="crew/alexj">Mer info</a></p>
             </div>
         </div>
         <div class="four columns">
@@ -136,7 +136,7 @@ h2{
 
                 <p>Tlf: 123 45 678</p>
 
-                <p style="margin-top:10px;"><a href="crew/knut">Mer info</a></p>
+                <p style="margin-top:10px;"><a href="crew/john">Mer info</a></p>
             </div>
         </div>
     </section>
@@ -157,7 +157,7 @@ h2{
 
                 <p>Tlf: 123 45 678</p>
 
-                <p style="margin-top:10px;"><a href="crew/knut">Mer info</a></p>
+                <p style="margin-top:10px;"><a href="crew/marius">Mer info</a></p>
             </div>
         </div>
         <div class="four columns">
@@ -171,7 +171,7 @@ h2{
 
                 <p>Tlf: 123 45 678</p>
 
-                <p style="margin-top:10px;"><a href="crew/knut">Mer info</a></p>
+                <p style="margin-top:10px;"><a href="crew/hans">Mer info</a></p>
             </div>
         </div>
         <div class="four columns">
@@ -185,7 +185,7 @@ h2{
 
                 <p>Tlf: 123 45 678</p>
 
-                <p style="margin-top:10px;"><a href="crew/knut">Mer info</a></p>
+                <p style="margin-top:10px;"><a href="crew/alban">Mer info</a></p>
             </div>
         </div>
     </section>
