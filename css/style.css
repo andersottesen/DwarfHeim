@@ -102,6 +102,7 @@ a:hover{
 ------------------------------------
 */
 #header-image{
+    padding-top:1px;
     margin-top:-21px;
     width:100%;
 }

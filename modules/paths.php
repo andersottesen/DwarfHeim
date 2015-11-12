@@ -4,7 +4,7 @@ require "config/config.php";
 $css = array(
    "style" => $root."/css/style.css",
    "grid" => $root."/css/grid.css",
-    "media" => $root."/css/meida.css",
+    "media" => $root."/css/media.css",
 );
 
 $js = array(
