@@ -31,7 +31,7 @@ PURPOSE: Provide a contact form where messages can be sent to the DwarfHeim team
 
 <div class="row">
     <div style="max-width:500px; margin: 0 auto;">
-        <form action="contactform.php" method="post">
+        <form id="email-form" action="contactform.php" method="post">
             <div class="row">
                     <label for="name">Name: </label>
                     <input type="text" placeholder="Your Name" name="name" id="name" required>
@@ -46,10 +46,21 @@ PURPOSE: Provide a contact form where messages can be sent to the DwarfHeim team
             </div>
 
             <div class="btn-center">
-                <button class="btn" type="submit" style="text-align: center">Send</button>
+                <button class="btn" id="send-btn" type="submit" style="text-align: center">Send</button>
+                <p id="status" style="visibility: hidden;">Sending message ...</p>
             </div>
         </form>
     </div>
 </div>
-
+<script>
+    var sendBtn = document.getElementById("send-btn");
+    var form = document.getElementById("email-form");
+    var sendStatus = document.getElementById("status");
+    sendBtn.addEventListener("click", function(){
+        if(form.checkValidity()){
+            sendBtn.style.display = "none";
+            sendStatus.style.visibility = "visible";
+        }
+    });
+</script>
 <?php include_once "modules/footer.php"; ?>
