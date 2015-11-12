@@ -38,12 +38,6 @@ h1,h2{
 }
 "; ?>
 <?php $head='
-<script >function checkCookie() {
-    var cookie = getCookie("lp_visited");
-    if (cookie == "") {
-        window.location = "landingpage.php";
-    }
-}</script>
 <script src="js/hp_cookie.js"></script>
 '; ?>
 <?php include_once("modules/head.php") ?>

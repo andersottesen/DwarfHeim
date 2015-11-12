@@ -14,5 +14,10 @@ function getCookie(cname) {
     }
     return "";
 }
-
+function checkCookie() {
+    var cookie = getCookie("lp_visited");
+    if (cookie == "") {
+        window.location = "landingpage.php";
+    }
+}
 checkCookie();
