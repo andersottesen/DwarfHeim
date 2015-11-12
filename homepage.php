@@ -69,7 +69,7 @@ h1,h2{
                 <div class="six columns thumbnail" style="margin-left:5px;"><img id="gallery4" src="images/art/large/DwarfHeim%203.jpg"
                                                                                  alt="" style="float:left;"></div>
             </div>
-            <h2><a href="<?php echo $page["images"] ?>">See more...</a></h2>
+            <h2><a href="<?php echo $page["media"] ?>">See more...</a></h2>
         </div>
         <div class="row" id="crew" style="margin-top:230px;">
             <h2>The crew</h2>
