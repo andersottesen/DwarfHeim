@@ -24,7 +24,7 @@ PURPOSE: Inspire the users to click further into the page and discover what Dwar
     }
 }
 @media (max-width:549px){
-.columns{
+.thumbnail{
 width:48%;
 }
     #gallery-mobile{
@@ -38,6 +38,12 @@ h1,h2{
 }
 "; ?>
 <?php $head='
+<script >function checkCookie() {
+    var cookie = getCookie("lp_visited");
+    if (cookie == "") {
+        window.location = "landingpage.php";
+    }
+}</script>
 <script src="js/hp_cookie.js"></script>
 '; ?>
 <?php include_once("modules/head.php") ?>
@@ -116,7 +122,7 @@ h1,h2{
                 <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/small/Concept%2003%20small.jpeg"
                                                                                  alt="" style="float:left;"></div>
             </div>
-            <h2><a href="<?php echo $page["images"] ?>">See more...</a></h2>
+            <h2><a href="<?php echo $page["media"] ?>">See more...</a></h2>
 
             <h2 style="margin-top:100px;">The crew</h2>
 
