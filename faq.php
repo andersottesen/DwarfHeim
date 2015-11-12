@@ -97,7 +97,7 @@ $faq = array(
             <li class="faq-question">
                 <span class="right arrow">&#x25BA;</span>
                 ' . $question . '
-                <ul id="navigation-dropdown" class="faq-answer hidden">
+                <ul class="faq-answer hidden">
                     <li>' . $answer . '</li>
                 </ul>
             </li>';
