@@ -20,7 +20,7 @@
 
 
         <ul class="mobile-menu">
-            <li id="mainMenu"><a><img id="drop-menu" src="<?php echo $root.'/images/art/small/DwarfHeim 8 INIT small.jpeg'; ?>"> Menu </a></li>
+            <li id="mainMenu"><a><img id="drop-menu" src="<?php echo $root.'/images/art/small/DwarfHeim 8 INIT small.jpeg'; ?>">Menu </a>
                 <ul id="content">
                     <li><a href="<?php echo $page["homepage"] ?>">Home</a></li>
                     <li><a href="<?php echo $page["media"] ?>">Media</a></li>
@@ -30,6 +30,7 @@
                     <li><a href="<?php echo $page["faq"] ?>">FAQ</a></li>
                     <li><a href="<?php echo $page["investor"] ?>">Investors</a></li>
                 </ul>
+            </li>
         </ul>
     </div>
     <img id="header-image" style="margin-top:-21px;" src="<?php echo $root.'/images/Navpic.jpg'; ?>" width="100%" alt="">
@@ -45,7 +46,6 @@
             function () {
                 $('#content').slideToggle();
             }
-
 
         );
     });
