@@ -50,13 +50,14 @@ a:hover{
     padding: 0;
     margin: 0;
     opacity: 0.72;
-    border-top: 2px solid #767676;
-    border-bottom: 2px solid #767676;
-    border-left: 2px solid #767676;
+    border: 2px solid #767676;
+    border-right: none;
     position: relative;
     width:16.2%;
 }
-.navbar>li:last-child{
+
+/* Remove overlapping borders and add missing borders*/
+.navbar li:last-child{
     border-right: 2px solid #767676;
 }
 .navbar>li>ul>li{
@@ -65,11 +66,13 @@ a:hover{
 .navbar>li>ul>li:first-child{
     border-top:2px solid #767676;
 }
-.navbar a {
+
+.navbar a	{
     padding: 18px 0;
     text-decoration: none;
     display: block;
-
+    color:  #E86700;
+    background-color: #fffce9;
 }
 .navbar li:hover{
     opacity: 1;
@@ -84,13 +87,14 @@ a:hover{
 }
 .navbar li ul, .navbar li ul li{
     width: 100%!important;
-    z-index: 99999;
+    z-index: 99999;/*Make sure dropdown is visible*/
 }
 .navbar ul a {
     display: block;
     height: 15px;
     text-decoration: none;
 }
+
 
 .navbar  a {
     color:  #E86700;
@@ -145,7 +149,7 @@ a:hover{
 }
 
 
-
+/*Adjust navbar for smaller screens*/
 @media(max-width:900px){
     #top-nav{
         margin-left:0.5%;
@@ -166,6 +170,11 @@ a:hover{
 /* Header-Image
 ------------------------------------
 */
+#header-image{
+    margin-top:-21px;
+    width:100%;
+}
+
 @media (max-width: 700px) {
     #header-image{
         padding-top: 5px;
@@ -226,6 +235,7 @@ a:hover{
     text-decoration: underline;
 }
 
+/*Change footer style depending on screen width*/
 @media (max-width: 1122px){
     #bottom-footer #contact{
 
@@ -235,7 +245,6 @@ a:hover{
         font-size: 14px;
     }
 }
-
 @media (max-width: 875px){
     #contact p{
         margin-left:-30px !important;
@@ -247,7 +256,6 @@ a:hover{
         width:117%;
     }
 }
-
 @media (max-width: 734px) {
     #contact p{
         margin-left:-40px !important;
@@ -256,14 +264,13 @@ a:hover{
         font-size: 14px;
     }
 }
-
 @media (max-width: 640px) {
     #contact p{
         margin-left: -50px !important;
         font-size: 12px!important;
     }
 }
-@media (max-width: 549px){
+@media (max-width: 549px){/*Mobile*/
     #footer-menu{
         text-align:left;
     }
@@ -292,6 +299,9 @@ a:hover{
         font-size: 14px!important;
     }
 }
+/* Body content
+-------------------------------------
+*/
 #main-container{
     margin-top:-3px;
     padding: 50px 15px;
@@ -305,6 +315,7 @@ a:hover{
     width:100%;
     margin-bottom:-5px;
 }
+
 /* Forms
 -------------------------------------
 */

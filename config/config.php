@@ -1,0 +1,2 @@
+<?php
+$root = "http://localhost";
