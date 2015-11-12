@@ -1,5 +1,9 @@
 <?php
-require "config/config.php";
+if(file_exists("config/config.php")){
+   require_once "config/config.php";
+}elseif(file_exists("../config/config.php")){
+   require_once "../config/config.php";
+}
 
 $css = array(
    "style" => $root."/css/style.css",
