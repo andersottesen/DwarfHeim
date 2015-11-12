@@ -11,7 +11,7 @@
 
 <div class="slideshow">
     <div class="mainSlideshow">
-        <img id="myPhoto" src="">
+        <img id="myPhoto" src="images/art/large/Concept%2001.jpg" alt="DwarfHeimPic1">
         <div class="holder" id="imageLeftHolder">
            <i class="fa fa-arrow-circle-o-left fa-5x"></i>
         </div>
@@ -72,7 +72,7 @@
 
 <div class="slideshow">
     <div class="mainSlideshow">
-        <video id="myVideo" src="" controls></video>
+        <video id="myVideo" src="images/art/videoImages/geologist.png" controls></video>
         <div class="holder" id="videoLeftHolder">
             <i class="fa fa-arrow-circle-o-left fa-5x"></i>
         </div>

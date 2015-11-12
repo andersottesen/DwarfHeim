@@ -35,7 +35,7 @@ p{
 
     <section class="content">
 
-        <img class="picture" src="images/art/large/Concept 03.jpg" alt="">
+        <img class="picture" src="images/art/large/Concept%2003.jpg" alt="Concept 03.jpg">
         <p>
 			Imagine you are hanging out with some friends to play PC-games. 
 			One friend wants to play a tower defense game. One wants to play a mining game like Dungeon Keeper. 

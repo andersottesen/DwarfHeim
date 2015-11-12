@@ -16,7 +16,7 @@
     </ul>
 
         <ul class="mobile-menu">
-            <li id="mainMenu"><a><img id="drop-menu" src="<?php echo $root.'/images/art/small/DwarfHeim 8 INIT small.jpeg'; ?>">Menu </a>
+            <li id="mainMenu"><a><img id="drop-menu" src="<?php echo $root.'/images/art/small/DwarfHeim%208%20INIT%20small.jpeg'; ?>" alt="MobileDropDownImage">Menu </a>
                 <ul id="content">
                     <li><a href="<?php echo $page["homepage"] ?>">Home</a></li>
                     <li><a href="<?php echo $page["media"] ?>">Media</a></li>

@@ -24,7 +24,7 @@ PURPOSE: Inspire the users to click further into the page and discover what Dwar
     }
 }
 @media (max-width:549px){
-.columns{
+.thumbnail{
 width:48%;
 }
     #gallery-mobile{
@@ -69,7 +69,7 @@ h1,h2{
                 <div class="six columns thumbnail" style="margin-left:5px;"><img id="gallery4" src="images/art/large/DwarfHeim%203.jpg"
                                                                                  alt="" style="float:left;"></div>
             </div>
-            <h2><a href="<?php echo $page["images"] ?>">See more...</a></h2>
+            <h2><a href="<?php echo $page["media"] ?>">See more...</a></h2>
         </div>
         <div class="row" id="crew" style="margin-top:230px;">
             <h2>The crew</h2>
@@ -116,7 +116,7 @@ h1,h2{
                 <div class="six columns thumbnail" style="margin-left:5px;"><img src="images/art/small/Concept%2003%20small.jpeg"
                                                                                  alt="" style="float:left;"></div>
             </div>
-            <h2><a href="<?php echo $page["images"] ?>">See more...</a></h2>
+            <h2><a href="<?php echo $page["media"] ?>">See more...</a></h2>
 
             <h2 style="margin-top:100px;">The crew</h2>
 

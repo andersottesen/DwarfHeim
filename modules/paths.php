@@ -8,7 +8,7 @@ if(file_exists("config/config.php")){
 $css = array(
    "style" => $root."/css/style.css",
    "grid" => $root."/css/grid.css",
-    "media" => $root."/css/meida.css",
+    "media" => $root."/css/media.css",
 );
 
 $js = array(
@@ -21,15 +21,13 @@ $js = array(
 );
 
 $page = array(
-   "homepage" => $root."/homepage",
-   "about" => $root."/about",
-   "faq" => $root."/faq",
-   "dwarfheim" => $root."/dwarfheim",
-   "contact" => $root."/contact",
-   "investor" => $root."/investors",
+   "homepage" => $root."/homepage.php",
+   "about" => $root."/about.php",
+   "faq" => $root."/faq.php",
+   "dwarfheim" => $root."/dwarfheim.php",
+   "contact" => $root."/contact.php",
+   "investor" => $root."/investors.php",
    "media" => $root."/media.php",
-   "videos" => $root."/media.php",
-   "images" => $root."/media.php",
-   "landingpage" => $root."/landingpage",
+   "landingpage" => $root."/landingpage.php",
 );
 
