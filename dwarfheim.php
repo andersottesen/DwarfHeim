@@ -37,7 +37,19 @@ p{
 
         <img class="picture" src="images/art/large/Concept 03.jpg" alt="">
         <p>
-            “DwarfHeim” is a real time strategy computer game where four players cooperate together to create a thriving dwarf society and survive a neverending horde of orc attacks.
+			Imagine you are hanging out with some friends to play PC-games. 
+			One friend wants to play a tower defense game. One wants to play a mining game like Dungeon Keeper. 
+			One wants to play a real time strategy game like Age of Empires or Warcraft. 
+			But you want to play a grand strategy game like Crusader Kings or Europa Universalis. 
+			These are all strategy games, but it’s hard to decide which one to pick.
+		</p>
+		<p>
+			But what if there was a game which drew the best game elements from different strategy games 
+			and combined them into one team based strategy game? Then everyone would find a role in the game 
+			that they would like to play. This would be the obvious game of choice for you and your friends.
+		</p>
+		<p>
+			This is the game we want to make. DwarfHeim is a real time strategy computer game where four players cooperate together to create a thriving dwarf society and survive a neverending horde of orc attacks.
             Each player chooses one of four classes, which all have their unique tasks and skills. The game focus on cooperation. Sharing limited resources makes teamwork an important skill needed to survive.
             If you use more than what is wise and only focus on your own tasks you’ll put the whole society in danger. It’s a game where you’ll learn to cooperate and put the dwarf city ahead of your own ambitions.
         </p>
