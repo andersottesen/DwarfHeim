@@ -13,11 +13,19 @@ p{
 .picture{
     max-width: 30%;
     max-height: 25%;
+	min-width: 200px;
     position: relative;
-    position: left;
+    float: right;
     padding-top:10px;
     padding-bottom: 10px;
 }
+
+.info{
+    position: relative;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
 .main{
     padding-left:50px;
     padding-right:50px;
@@ -36,6 +44,20 @@ p{
     <section class="content">
 
         <img class="picture" src="../images/team/5.jpg" alt="">
+		
+		<div class="info">
+		
+			<p>Designer</p>
+			
+			<p>Contact info</p>
+			
+			<div class="contact">
+                <p><a style="color: #0000AA;" href="mailto:Lo_dott@hotmail.com">Email</a></p>
+
+                <p>Tlf: +47 476 20 704</p>
+			</div>
+		</div>
+		
         <div class="interview">
             <h3>Hvem er du?</h3>
 			<p>Navnet er Marius Åslund, jeg er fra Våler i Telemark, jeg er 29 år sist jeg sjekka. Jeg er utdannet animatør, men i de siste åra har jeg vidreutvikla meg innen spill og 3d-design.</p>

@@ -9,14 +9,13 @@ PURPOSE: This page will contain the most frequently asked question to help the v
 
 //Add questions here. "Question" => "Answer" .
 $faq = array(
-    "Question 1?" => "Answer 1",
-    "Question 2?" => "Answer 2",
-    "Question 3?" => "Answer 3",
-    "Question 4?" => "Answer 4",
-    "Question 5?" => "Answer 5",
-    "Question 6?" => "Answer 6",
-    "Question 7?" => "Answer 7",
-    "Question 8?" => "Answer 8Answer 8Answer 8Answer 8Answer 8Answer 8Answer 8Answer 8Answer 8Answer 8Answer 8Answer 8Answer 8",
+    "What is DwarfHeim?" => "DwarfHeim is a real time strategy computer game where four players cooperate together to create a thriving dwarf society and survive a neverending horde of orc attacks.",
+    "Which platform is it for?" => "PC/Mac",
+    "Will it be available through Steam?" => "Yes",
+    "Will there be a Kickstarter?" => "Yes",
+    "How many players cooperate on the same town?" => "Each town will have four leaders; <i><br>The Prospector <br>The Mayor <br>The General <br>The Diplomat<br></i> Each one with it's different playstyle and responsibilities.",
+    "What if I want to play the same role as someone else?" => "During the same match everyone has to play different roles.",
+    "What if we’re only three who wants to play?" => "You will be able to play as only three. The computer will then play as the fourth role, though not as good as a decent player.",
 );
 ?>
 
