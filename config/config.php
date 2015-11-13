@@ -1,2 +1,2 @@
 <?php
-$root = "http://folk.ntnu.no/larsfkl/IT2805/DwarfHeim";
+$root = "http://localhost:8888";
