@@ -9,11 +9,13 @@
 <div id="landing-page">
 
     <div id="landing-logo">
-        <img src="images/DwarfHeim-landingpage.jpg" alt="Dwarfheim logo" height="300px" width="700px">
+        <a href="<?php echo $page["homepage"] ?>">
+            <img src="images/DwarfHeim-landingpage.jpg" alt="Dwarfheim logo" height="300" width="700">
+        </a>
     </div>
 
     <div id="landing-video">
-        <video width="700px" height="360px" controls>
+        <video width="700" height="360" controls>
             <source src="video/tnt.mp4" type="video/mp4">
             This is a video, your browser does not support this format.
         </video>

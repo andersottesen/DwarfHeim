@@ -4,9 +4,15 @@ html{
 /* Typography
 -------------------------------------
 */
-body,h1,h2,h3,h4,h5,h6,p{
+body,h3,h4,h5,h6,p{
     font-family: "palatino", Times;
     color:#000000;
+}
+h1,h2{
+    font-family: 'Caesar Dressing', cursive;
+    color:#E86700;
+    font-weight: 100;
+
 }
 
 p{
@@ -25,15 +31,21 @@ a:hover{
 */
 #top-nav{
     margin-left:1%;
+
 }
+
 .navbar {
     width: 100%;
     text-align: center;
     display:inline-block;
     list-style-type:none;
-    text-align:center;
     padding:0;
+    margin-top: 0;
+    margin-right: 0;
 }
+
+
+
 .navbar li {
     float: left;
     text-align: center;
@@ -89,6 +101,60 @@ a:hover{
     text-decoration: none;
 }
 
+
+.navbar  a {
+    color:  #E86700;
+    background-color: #fffce9;
+}
+
+
+.mobile-menu {
+    color:  #E86700;
+    background-color: #fffce9;
+    text-decoration: none;
+    width: 100%;
+    text-align: left;
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    max-width: 100%;
+}
+
+
+.mobile-menu li {
+    text-align: left;
+    list-style: none;
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left:0px;
+    margin: 0;
+    position: relative;
+    border-right: 2px solid #767676;
+    border-left: 2px solid #767676;
+    border-top: 2px solid #767676;
+    opacity: 0.85;
+}
+
+#content li{
+    border-top: 2px solid #767676;
+    border-left: 0;
+    border-right: 0;
+
+}
+
+.mobile-menu ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+#drop-menu{
+    width: 100px;
+    height: 100px;
+    vertical-align:middle;
+}
+
+
 /*Adjust navbar for smaller screens*/
 @media(max-width:900px){
     #top-nav{
@@ -98,12 +164,28 @@ a:hover{
         font-size: 14px!important;
     }
 }
+@media(max-width:700px){
+    .navbar{
+        display: none;
+    }
+    .mobile-menu{
+        display:block;
+    }
+
+}
 /* Header-Image
 ------------------------------------
 */
 #header-image{
+    padding-top:1px;
     margin-top:-21px;
     width:100%;
+}
+
+@media (max-width: 700px) {
+    #header-image{
+        padding-top: 5px;
+    }
 }
 
 @media(max-width:500px){
@@ -149,9 +231,6 @@ a:hover{
     margin-top: 0;
 }
 
-#footer-menu .two:not:first-child a{
-    margin-top:10px;
-}
 #footer-menu a:first-child{
     color: #E86700;
 }

@@ -2,7 +2,7 @@
  * Created by madeleineloras on 27/10/15.
  */
 
-var gallery = new Array("../images/art/small/Concept%2001%20small.jpeg", "../images/art/small/Concept%2002%20small.jpeg", "../images/art/small/Concept%2003%20small.jpeg", "../images/art/small/DwarfHeim%201%20small.jpeg", "../images/art/small/DwarfHeim%202%20Blue%20small.jpeg", "../images/art/small/DwarfHeim%203%20small.jpeg",  "../images/art/small/DwarfHeim%204%20small.jpeg",  "../images/art/small/DwarfHeim%205%20Blue%20small.jpeg",  "../images/art/small/DwarfHeim%206%20Blue%20small.jpeg",  "../images/art/small/DwarfHeim%207%20Grass%20small.jpeg",  "../images/art/small/DwarfHeim%208%20INIT%20small.jpeg", "../images/art/videoImages/geologist.png", "../images/art/videoImages/tnt.png", "../images/art/videoImages/miner.png");
+var gallery = new Array("images/art/small/Concept%2001%20small.jpeg", "images/art/small/Concept%2002%20small.jpeg", "images/art/small/Concept%2003%20small.jpeg", "images/art/small/DwarfHeim%201%20small.jpeg", "images/art/small/DwarfHeim%202%20Blue%20small.jpeg", "images/art/small/DwarfHeim%203%20small.jpeg",  "images/art/small/DwarfHeim%204%20small.jpeg",  "images/art/small/DwarfHeim%205%20Blue%20small.jpeg",  "images/art/small/DwarfHeim%206%20Blue%20small.jpeg",  "images/art/small/DwarfHeim%207%20Grass%20small.jpeg",  "images/art/small/DwarfHeim%208%20INIT%20small.jpeg", "images/art/videoImages/geologist.png", "images/art/videoImages/tnt.png", "images/art/videoImages/miner.png");
 var galleryIndex= new Array(); //Liste med tall fra 0 til antall bilder i galleriet.
 var randomGallery = new Array(); //Liste med fire tilfeldige tall som er indexen som skal
 
@@ -22,7 +22,7 @@ document.getElementById("gallery2").src = gallery[randomGallery[1]];
 document.getElementById("gallery3").src = gallery[randomGallery[2]];
 document.getElementById("gallery4").src = gallery[randomGallery[3]];
 
-var crew = new Array("../images/team/1-t.jpg", "../images/team/2-t.jpg", "../images/team/3-t.jpg", "../images/team/4-t.jpg", "../images/team/5-t.jpg", "../images/team/6-t.jpg", "../images/team/7-t.jpg", "../images/team/8-t.jpg");
+var crew = new Array("images/team/1-t.jpg", "images/team/2-t.jpg", "images/team/3-t.jpg", "images/team/4-t.jpg", "images/team/5-t.jpg", "images/team/6-t.jpg", "images/team/7-t.jpg", "images/team/8-t.jpg");
 var crewIndex= new Array();
 var randomCrew = new Array();
 
