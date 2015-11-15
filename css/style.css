@@ -177,6 +177,7 @@ a:hover{
 ------------------------------------
 */
 #header-image{
+    padding-top:1px;
     margin-top:-21px;
     width:100%;
 }
@@ -230,9 +231,6 @@ a:hover{
     margin-top: 0;
 }
 
-#footer-menu .two:not:first-child a{
-    margin-top:10px;
-}
 #footer-menu a:first-child{
     color: #E86700;
 }

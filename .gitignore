@@ -50,3 +50,5 @@ crashlytics-build.properties
 
 #Config files
 /config/
+config/config.php
+config/mail.php
