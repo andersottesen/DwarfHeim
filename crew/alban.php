@@ -13,11 +13,19 @@ p{
 .picture{
     max-width: 30%;
     max-height: 25%;
+	min-width: 200px;
     position: relative;
-    position: left;
+    float: right;
     padding-top:10px;
     padding-bottom: 10px;
 }
+
+.info{
+    position: relative;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
 .main{
     padding-left:50px;
     padding-right:50px;
@@ -34,8 +42,22 @@ p{
     </header>
 
     <section class="content">
+		
+		<img class="picture" src="../images/team/7.jpg" alt="">
+		
+		<div class="info">
+		
+			<p>Marketing</p>
+			
+			<p>Contact info</p>
+			
+			<div class="contact">
+				<p><a style="color: #0000AA;" href="mailto:Albzorz@hotmail.com">Email</a></p>
 
-        <img class="picture" src="../images/team/7.jpg" alt="">
+				<p>Tlf: +47 416 86 395</p>
+			</div>
+		</div>
+		
         <div class="interview">
             <h3>Hvem er du?</h3>
 			<p>Jeg heter Alban Berisha, er 27 og, og driver og loker rundt i Trondheim. 
@@ -48,7 +70,7 @@ p{
 			<h3>Hva er din rolle i DwarfHeim teamet?</h3>
 			<p>Programmerer det meste så langt. Jeg er også med på å designe spillet.</p>
 			
-			<h3>Hva er ditt favorittspill og spilløyeblikk?</h3>
+			<h3>Hva er ditt favorittspill og -spilløyeblikk?</h3>
 			<p>Når man har vært gamer i over 20 år har man mye å velge mellom. 
 			Et av favoritt øyeblikkene må uansett være da jeg deltok i Tekken-NM i 2013. 
 			Jeg var noe av en underdog da jeg gikk inn i turneringen, 
@@ -63,13 +85,14 @@ p{
 			om å lage noe vi forhåpendlig vis alle vil være stolte over.</p>
 			
 			<h3>Hvem er din favoritt dverg?</h3>
-			<p>Min favoritt dverg er nok Gimli fra den første Ringenes Herre filmen. 
+			<p>Min favorittdverg er nok Gimli fra den første "Ringenes Herre"-filmen. 
 			I denne filmen har karakteren en veldig interessant indre reise, 
 			der han overkommer alt fra sin fremmedfrykt for alver til sorgen 
 			han opplever av tapet av slekt i Moria. I de to neste filmene blir han dessverre 
 			henvist til en slags comic relief rolle, der han er den artige, stutte karakteren som alle ler av.</p>
         </div>
     </section>
+    <p style="margin-top:10px;"><a href="<?php echo $page["about"] ?>">Back to Crew</a></p>
 </div>
 
 <script>

@@ -13,11 +13,19 @@ p{
 .picture{
     max-width: 30%;
     max-height: 25%;
+	min-width: 200px;
     position: relative;
-    position: left;
+    float: right;
     padding-top:10px;
     padding-bottom: 10px;
 }
+
+.info{
+    position: relative;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
 .main{
     padding-left:50px;
     padding-right:50px;
@@ -36,6 +44,20 @@ p{
     <section class="content">
 
         <img class="picture" src="../images/team/1.jpg" alt="">
+		
+		<div class="info">
+		
+			<p>Designer</p>
+			
+			<p>Contact info</p>
+			
+			<div class="contact">
+                <p><a style="color: #0000AA;" href="mailto:Eirik_Henden@hotmail.com">Email</a></p>
+
+                <p>Tlf: +47 481 47 098</p>
+			</div>
+		</div>
+		
         <div class="interview">
             <h3>Hvem er du?</h3>
 			<p>Mitt navn er Eirik Henden, jeg er 24 år. Jeg studerer for tiden til en bachelorgrad innen interaktive medier i Kristiansand. Når jeg er ferdig med bacheloren blir det kanskje en master. Ellers tegner jeg mye, trener en del, leser mye bøker, og jeg prøver å l're nye ting hele tiden.</p>

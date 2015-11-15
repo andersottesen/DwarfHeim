@@ -13,11 +13,19 @@ p{
 .picture{
     max-width: 30%;
     max-height: 25%;
+	min-width: 200px;
     position: relative;
-    position: left;
+    float: right;
     padding-top:10px;
     padding-bottom: 10px;
 }
+
+.info{
+    position: relative;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
 .main{
     padding-left:50px;
     padding-right:50px;
@@ -36,6 +44,20 @@ p{
     <section class="content">
 
         <img class="picture" src="../images/team/2.jpg" alt="">
+		
+		<div class="info">
+		
+			<p>Developer</p>
+			
+			<p>Contact info</p>
+			
+			<div class="contact">
+                <p><a style="color: #0000AA;" href="mailto:Eirik92fosse@gmail.com">Email</a></p>
+
+                <p>Tlf: +47 913 69 708</p>
+			</div>
+		</div>
+		
         <div class="interview">
             <h3>Hvem er du?</h3>
 			<p>Eirik Fosse heter jeg, jeg studerer informatikk på NTNU, med fokus på kunstig inteligens og innovasjon. Jeg har alltid hatt lyst til å lage spill, og jeg har ofte lekt med spilldesign-programvare som gamemaker o.l.</p>
