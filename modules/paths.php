@@ -20,6 +20,19 @@ $js = array(
    "hp_cookie" => $root."/js/hp_cookie.js",
 );
 
+$crew = array(
+   "alban" => $root."/crew/alban.php",
+   "alexf" => $root."/crew/alexf.php",
+   "alexj" => $root."/crew/alexj.php",
+   "anders" => $root."/crew/anders.php",
+   "eirikf" => $root."/crew/eirikf.php",
+   "eirikh" => $root."/crew/eirikh.php",
+   "hans" => $root."/crew/hans.php",
+   "john" => $root."/crew/john.php",
+   "knut" => $root."/crew/knut.php",
+   "marius" => $root."/crew/marius.php",
+);
+
 $page = array(
    "homepage" => $root."/homepage.php",
    "about" => $root."/about.php",
