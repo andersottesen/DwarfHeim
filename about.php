@@ -54,13 +54,16 @@ h2{
 "; ?>
 <?php include_once("modules/head.php") ?>
 <?php include_once "modules/nav.php"; ?>
+
 <header style="margin-bottom:50px;" class="row">
     <h1>The Crew</h1>
 </header>
 <section class="row team" style="border-top: 3px solid #d6d6d6;">
+    <!-- Team name -->
     <header class="row">
         <h2>General Manager</h2>
     </header>
+
     <section class="row">
 		<div class="team-member">
 			<a href="<?php echo $crew["hans"] ?>">
@@ -78,6 +81,7 @@ h2{
     </section>
 </section>
 <section class="row team">
+    <!-- Team name -->
     <header class="row">
         <h2>Developers</h2>
     </header>
@@ -130,6 +134,7 @@ h2{
     </section>
 </section>
 <section class="row team">
+    <!-- Team name -->
     <header class="row">
         <h2>Designers</h2>
     </header>
@@ -182,6 +187,7 @@ h2{
     </section>
 </section>
 <section class="row team">
+    <!-- Team name -->
     <header class="row">
         <h2>Marketing and Economy</h2>
     </header>
@@ -233,6 +239,7 @@ h2{
 </section>
 
 <script>
+    //Change header image to a image of the team
     document.getElementById("header-image").src = "images/team/team.jpg"
 </script>
 

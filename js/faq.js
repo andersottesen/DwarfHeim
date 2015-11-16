@@ -16,13 +16,13 @@ ul.onclick = function (event) {
     if (target.tagName != "LI" && target.tagName!="SPAN" ) {
         return;
     }
-    //If the arrow is clicked
+    //If the arrow is clicked choose parent node
     if (target.tagName == "SPAN") {
         target = target.parentNode;
     }
 
     var arrow = target.getElementsByTagName("span")[0];
-    var child = target.getElementsByTagName("ul")[0];
+    var answer = target.getElementsByTagName("ul")[0];
 
     //Change direction of arrow
     if (arrow.className.indexOf("right") > -1) {
@@ -34,5 +34,5 @@ ul.onclick = function (event) {
     }
 
     //Show/Hide the answer
-    child.className = child.className.indexOf("hidden") > -1 ? child.className.replace("hidden", "visible") : child.className.replace("visible", "hidden");
+    answer.className = answer.className.indexOf("hidden") > -1 ? answer.className.replace("hidden", "visible") : answer.className.replace("visible", "hidden");
 };

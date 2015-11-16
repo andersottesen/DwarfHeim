@@ -42,7 +42,9 @@ h1,h2{
 '; ?>
 <?php include_once("modules/head.php") ?>
 <div id="fb-root"></div>
-<script>(function (d, s, id) {
+<script>
+    //Facebook feed using the Facebook jsSDK
+    (function (d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s);
@@ -54,6 +56,7 @@ h1,h2{
 
 <div class="row">
     <div class="four columns">
+        <!-- Gallery preview -->
         <div class="row" id="gallery" style="margin-top:80px;">
             <h2>Gallery</h2>
 
@@ -70,7 +73,8 @@ h1,h2{
                                                                                  alt="" style="float:left;"></div>
             </div>
             <h2><a href="<?php echo $page["media"] ?>">See more...</a></h2>
-        </div>
+        </div> <!-- Gallery preview-->
+        <!-- Crew preview -->
         <div class="row" id="crew" style="margin-top:230px;">
             <h2>The crew</h2>
 
@@ -88,9 +92,9 @@ h1,h2{
             </div>
             <h2><a href="<?php echo $page["about"] ?>">See more...</a></h2>
         </div>
-    </div>
+    </div><!-- Crew preview -->
     <div class="offset-by-one seven columns right">
-
+        <!-- About DwarfHeim -->
         <header class="row">
             <h1>DwarfHeim</h1>
         </header>
@@ -100,7 +104,8 @@ h1,h2{
             <h3>DwarfHeim is a pc-game under developement in Norway. During developement we would love to get feedback
                 on our ideas and eventually get testers. Read more about the game <a
                     href="<?php echo $page["dwarfheim"] ?>">here</a>.</h3>
-        </section>
+        </section><!-- About DwarfHeim -->
+        <!-- Gallery and crew for mobile -->
         <div class="row mobile" id="gallery-mobile" style="margin-top:80px;">
             <h2>Gallery</h2>
 
@@ -133,7 +138,8 @@ h1,h2{
                                                                                                                         style="float:left;"></a></div>
             </div>
             <h2><a href="<?php echo $page["about"] ?>">See more...</a></h2>
-        </div>
+        </div><!-- Gallery and crew for mobile -->
+        <!-- News/Facebook feed -->
         <header class="row" style="margin-top:150px;">
             <h1>News</h1>
         </header>
@@ -149,16 +155,9 @@ h1,h2{
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
-</div>
-
-<div class="row">
-    <div class="offset-by-one even columns">
-
-
-    </div>
-</div>
+        </section><!-- News/Facebook feed -->
+    </div><!-- About DwarfHeim And Facebook feed -->
+</div><!-- Homepage content -->
 
 <script src="js/hp_randomizer.js"></script>
 

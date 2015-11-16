@@ -13,6 +13,7 @@ if($host === "smtp.localhost.com"){
 }elseif (isset($_POST["name"]) && isset($_POST["message"]) && isset($_POST["email"])) {
     require 'vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
 
+    //Set headers and content of email to be sent
     $name = $_POST["name"];
     $message = $name." sent a message to DwarfHeim on ".date("H:i:s j M Y").":<br/><div style=\"border-left:2px solid rgba(0,153,255,0.5);min-height:50px;width:350px; max-width:100%;\"> <hr/><p style=\"padding-left:15px;\">" .$_POST["message"]."</p></div>";
     $email = $_POST["email"];
@@ -50,26 +51,14 @@ if($host === "smtp.localhost.com"){
     $status = 'Form was not correctly filled, please <a style="color: #0000AA;" href="'.$page["contact"].'">try again</a>';
     $success = false;
 }
+//End send mail
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <?php $title = "Contact"; ?>
 <?php include_once("modules/head.php") ?>
 <?php include_once("modules/nav.php"); ?>
 
-<!-- CONTENT HERE -->
+<!-- Landing page after sending mail -->
 
 <div class="row">
     <div class="offset-by-three nine columns">

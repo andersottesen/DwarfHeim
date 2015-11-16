@@ -1,2 +1,2 @@
 <?php
-$root = "http://localhost8888";
+$root = "http://org.ntnu.no/dwarfheim";

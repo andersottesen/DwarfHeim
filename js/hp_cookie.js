@@ -4,6 +4,10 @@
  WHEN: October 2015
  PURPOSE: Redirect to landing page
  */
+
+/*
+Returns value of cookie if it exists
+ */
 function getCookie(cname) {
     var name = cname + "=";
     var ca = document.cookie.split(';');
@@ -14,6 +18,10 @@ function getCookie(cname) {
     }
     return "";
 }
+
+/*
+If the cookie lp_visited does not exist, redirect to landingpage
+ */
 function checkCookie() {
     var cookie = getCookie("lp_visited");
     if (cookie == "") {

@@ -4,6 +4,10 @@
  WHEN: October 2015
  PURPOSE: Set cookie to prevent redirection from homepage
  */
+
+/*
+ Returns value of cookie if it exists
+ */
 function getCookie(cname) {
     var name = cname + "=";
     var ca = document.cookie.split(';');
@@ -15,6 +19,9 @@ function getCookie(cname) {
     return "";
 }
 
+/*
+Sets the lp_visited to prevent user from being redirected to the landing page next time he visits
+ */
 function checkCookie() {
     var cookie = getCookie("lp_visited");
     if (cookie == "") {

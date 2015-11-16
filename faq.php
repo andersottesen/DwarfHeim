@@ -91,6 +91,7 @@ $faq = array(
 
         <ul>
             <?php
+            //Display Question and answer
             foreach ($faq as $question => $answer) {
                 echo '
             <li class="faq-question">
@@ -111,7 +112,7 @@ $faq = array(
 </footer>
 <script src="js/faq.js"></script>
 <script>
-    //Sliding
+    //Sliding animation for faq
     $(document).ready(function () {
         $('.faq-question').click(
             function () {

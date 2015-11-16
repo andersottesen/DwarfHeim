@@ -1,2 +1,4 @@
-<?php header("Location: homepage.php");
+<?php
+//Redirect user to homepage
+header("Location: homepage.php");
 

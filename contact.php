@@ -8,7 +8,6 @@ PURPOSE: Provide a contact form where messages can be sent to the DwarfHeim team
 <?php include_once("modules/head.php") ?>
 <?php include_once("modules/nav.php"); ?>
 
-<!-- CONTENT HERE -->
 <div class="row">
     <div style="text-align: center">
         <header>
@@ -29,6 +28,7 @@ PURPOSE: Provide a contact form where messages can be sent to the DwarfHeim team
         <h2 style="text-align: center">Send a message to to the DwarHeim Team</h2>
     </header>
 
+<!-- Form for sending message to the DwarfHeim team-->
 <div class="row">
     <div style="max-width:500px; margin: 0 auto;">
         <form id="email-form" action="contactform.php" method="post">
@@ -51,13 +51,15 @@ PURPOSE: Provide a contact form where messages can be sent to the DwarfHeim team
             </div>
         </form>
     </div>
-</div>
+</div><!-- Form for sending message to the DwarfHeim team-->
 <script>
+    //Prevent user from clicking on send multiple times
     var sendBtn = document.getElementById("send-btn");
     var form = document.getElementById("email-form");
     var sendStatus = document.getElementById("status");
     sendBtn.addEventListener("click", function(){
         if(form.checkValidity()){
+            //Hide send button and show 'sending' message
             sendBtn.style.display = "none";
             sendStatus.style.visibility = "visible";
         }
