@@ -10,7 +10,7 @@
 
     <div id="landing-logo">
         <a href="<?php echo $page["homepage"] ?>">
-            <img src="images/DwarfHeim-landingpage.jpg" alt="Dwarfheim logo" height="300" width="700">
+            <img src="images/DwarfHeimLP.jpeg" alt="Dwarfheim logo" height="300" width="700">
         </a>
     </div>
 
