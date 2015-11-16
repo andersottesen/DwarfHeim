@@ -64,7 +64,7 @@ h2{
     <section class="row">
 		<div class="team-member">
 			<a href="<?php echo $crew["hans"] ?>">
-				<img src="images/team/6-t.jpg" alt="">
+				<img src="images/team/6-t.jpg" alt="Picture of team member">
 			</a>
 
 			<h3>Hans Andreas Kleven</h3>
@@ -85,7 +85,7 @@ h2{
         <div class="four columns">
             <div class="team-member">
 				<a href="<?php echo $crew["knut"] ?>">
-					<img src="images/team/8-t.jpg" alt="">
+					<img src="images/team/8-t.jpg" alt="Picture of team member">
 				</a>
 
                 <h3>Knut Ryager</h3>
@@ -100,7 +100,7 @@ h2{
         <div class="four columns">
             <div class="team-member">
 				<a href="<?php echo $crew["eirikf"] ?>">
-					<img src="images/team/2-t.jpg" alt="">
+					<img src="images/team/2-t.jpg" alt="Picture of team member">
 				</a>
 
                 <h3>Eirik Fosse</h3>
@@ -115,7 +115,7 @@ h2{
         <div class="four columns">
             <div class="team-member">
 				<a href="<?php echo $crew["alexj"] ?>">
-					<img src="images/team/3-t.jpg" alt="">
+					<img src="images/team/3-t.jpg" alt="Picture of team member">
 				</a>
 
                 <h3>Alexander Jonassen</h3>
@@ -137,7 +137,7 @@ h2{
         <div class="four columns">
             <div class="team-member">
 				<a href="<?php echo $crew["eirikh"] ?>">
-					<img src="images/team/1-t.jpg" alt="">
+					<img src="images/team/1-t.jpg" alt="Picture of team member">
 				</a>
 
                 <h3>Eirik Henden</h3>
@@ -152,7 +152,7 @@ h2{
         <div class="four columns">
             <div class="team-member">
 				<a href="<?php echo $crew["marius"] ?>">
-					<img src="images/team/5-t.jpg" alt="">
+					<img src="images/team/5-t.jpg" alt="Picture of team member">
 				</a>
 
                 <h3>Marius Åslund</h3>
@@ -167,7 +167,7 @@ h2{
         <div class="four columns">
             <div class="team-member">
 				<a href="<?php echo $crew["john"] ?>">
-					<img src="images/team/4-t.jpg" alt="">
+					<img src="images/team/4-t.jpg" alt="Picture of team member">
 				</a>
 
                 <h3>John Erlend Yttervik</h3>
@@ -189,7 +189,7 @@ h2{
         <div class="four columns">
             <div class="team-member">
 				<a href="<?php echo $crew["anders"] ?>">
-					<img src="images/team/" alt="">
+					<img src="images/team/user1.png" alt="Picture of team member">
 				</a>
 
                 <h3>Anders Ottesen</h3>
@@ -198,13 +198,12 @@ h2{
 
                 <p>Tlf: +47 994 49 699</p>
 
-                <p style="margin-top:10px;"><a href="<?php echo $crew["anders"] ?>">More info</a></p>
             </div>
         </div>
         <div class="four columns">
             <div class="team-member">
 				<a href="<?php echo $crew["alexf"] ?>">
-					<img src="images/team/" alt="">
+					<img src="images/team/user1.png" alt="Picture of team member">
 				</a>
 
                 <h3>Alexander Funch</h3>
@@ -213,13 +212,12 @@ h2{
 
                 <p>Tlf: +47 911 28 799</p>
 
-                <p style="margin-top:10px;"><a href="<?php echo $crew["alexf"] ?>">More info</a></p>
             </div>
         </div>
         <div class="four columns">
             <div class="team-member">
 				<a href="<?php echo $crew["alban"] ?>">
-					<img src="images/team/7-t.jpg" alt="">
+					<img src="images/team/7-t.jpg" alt="Picture of team member">
 				</a>
 
                 <h3>Alban Berisha</h3>
