@@ -9,7 +9,9 @@
 <div id="landing-page">
 
     <div id="landing-logo">
-        <img src="images/DwarfHeimLP.jpeg" alt="Dwarfheim logo" height="190px" width="700px">
+        <a href="<?php echo $page["homepage"] ?>">
+            <img src="images/DwarfHeimLP.jpeg" alt="Dwarfheim logo" height="190px" width="700px">
+        </a>
     </div>
 
     <div id="landing-video">

@@ -1,2 +1,2 @@
 <?php
-$root = "http://localhost:8888";
+$root = "http://localhost";
