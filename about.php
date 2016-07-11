@@ -72,7 +72,7 @@ h2{
 
 			<h3>Hans Andreas Kleven</h3>
 
-			<p><a style="color: #0000AA;" href="mailto:Hanskleven@live.no">Email</a></p>
+			<p><a style="color: #0000AA;" href="mailto:hans.kleven@dwarfheim.com">Email</a></p>
 
 			<p>Tlf: +47 948 98 655</p>
 
@@ -94,7 +94,7 @@ h2{
 
                 <h3>Knut Ryager</h3>
 
-                <p><a style="color: #0000AA;" href="mailto:E-k-nut@hotmail.com">Email</a></p>
+                <p><a style="color: #0000AA;" href="mailto:knut.ryager@dwarfheim.com">Email</a></p>
 
                 <p>Tlf: +47 978 83 549</p>
 
@@ -109,26 +109,11 @@ h2{
 
                 <h3>Eirik Fosse</h3>
 
-                <p><a style="color: #0000AA;" href="mailto:Eirik92fosse@gmail.com">Email</a></p>
+                <p><a style="color: #0000AA;" href="mailto:eirik.fosse@dwarfheim.com">Email</a></p>
 
                 <p>Tlf: +47 913 69 708</p>
 
                 <p style="margin-top:10px;"><a href="<?php echo $crew["eirikf"] ?>">More info</a></p>
-            </div>
-        </div>
-        <div class="four columns">
-            <div class="team-member">
-				<a href="<?php echo $crew["alexj"] ?>">
-					<img src="images/team/3-t.jpg" alt="Picture of team member">
-				</a>
-
-                <h3>Alexander Jonassen</h3>
-
-                <p><a style="color: #0000AA;" href="mailto:Alexanderjonassen@outlook.com">Email</a></p>
-
-                <p>Tlf: +47 416 35 199</p>
-
-                <p style="margin-top:10px;"><a href="<?php echo $crew["alexj"] ?>">More info</a></p>
             </div>
         </div>
     </section>
@@ -147,7 +132,7 @@ h2{
 
                 <h3>Eirik Henden</h3>
 
-                <p><a style="color: #0000AA;" href="mailto:Eirik_Henden@hotmail.com">Email</a></p>
+                <p><a style="color: #0000AA;" href="mailto:eirik.henden@dwarfheim.com">Email</a></p>
 
                 <p>Tlf: +47 481 47 098</p>
 
@@ -162,7 +147,7 @@ h2{
 
                 <h3>Marius Åslund</h3>
 
-                <p><a style="color: #0000AA;" href="mailto:Lo_dott@hotmail.com">Email</a></p>
+                <p><a style="color: #0000AA;" href="mailto:marius.aslund@dwarfheim.com">Email</a></p>
 
                 <p>Tlf: +47 476 20 704</p>
 
@@ -177,7 +162,7 @@ h2{
 
                 <h3>John Erlend Yttervik</h3>
 
-                <p><a style="color: #0000AA;" href="mailto:Johni5@hotmail.com">Email</a></p>
+                <p><a style="color: #0000AA;" href="mailto:john.yttervik@dwarfheim.com">Email</a></p>
 
                 <p>Tlf: +47 470 99 356</p>
 
@@ -200,7 +185,7 @@ h2{
 
                 <h3>Anders Ottesen</h3>
 
-                <p><a style="color: #0000AA;" href="mailto:Andersottesen@yahoo.no">Email</a></p>
+                <p><a style="color: #0000AA;" href="mailto:anders.ottesen@dwarfheim.com">Email</a></p>
 
                 <p>Tlf: +47 994 49 699</p>
 
@@ -214,7 +199,7 @@ h2{
 
                 <h3>Alexander Funch</h3>
 
-                <p><a style="color: #0000AA;" href="mailto:Alex_92_1st@msn.com">Email</a></p>
+                <p><a style="color: #0000AA;" href="mailto:alexander.funch@dwarfheim.com">Email</a></p>
 
                 <p>Tlf: +47 911 28 799</p>
 
@@ -228,7 +213,7 @@ h2{
 
                 <h3>Alban Berisha</h3>
 
-                <p><a style="color: #0000AA;" href="mailto:Albzorz@hotmail.com">Email</a></p>
+                <p><a style="color: #0000AA;" href="mailto:alban.berisha@dwarfheim.com">Email</a></p>
 
                 <p>Tlf: +47 416 86 395</p>
 
